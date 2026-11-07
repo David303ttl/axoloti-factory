@@ -457,10 +457,12 @@ class FilterBank {
 
 void FilterBank::Init(float sample_rate) {
   delay_buffer_ = (float *)sdram_malloc(sizeof(float[kDelayLineSize]));
+  if (!delay_buffer_) return;
   low_src_down_.Init();
   low_src_up_.Init();
   mid_src_down_.Init();
   mid_src_up_.Init();
+  if (sdram_get_free() < 0) return;
   
   int32_t max_delay = 0;
   float* samples = &samples_[0];

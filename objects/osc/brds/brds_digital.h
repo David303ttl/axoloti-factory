@@ -227,6 +227,7 @@ class Comb :  public DigitalOscillator {
 		previous_sample_=0;
 		phase_ = 0;
    	  dl_ = (int16_t *)sdram_malloc(sizeof(int16_t[kCombDelayLength]));
+	  if (!dl_) return;
 	  int i;
 	  for(i=0;i<kCombDelayLength;i++){
 		  dl_[i] = 0;
@@ -1212,6 +1213,7 @@ static const size_t kNumPluckVoices = 3;
   
 void Init() {
 	ks_ = (int16_t *)sdram_malloc(sizeof(int16_t[1025 * 4]));
+	if (!ks_) return;
 	int i;
 	for(i=0;i<1025 * 4;i++){
 		ks_[i]=0;
@@ -1347,7 +1349,9 @@ static const size_t kWGNeckLength = 4096;
   public:
 void Init(){
 	bridge_ = (int8_t*)sdram_malloc(kWGBridgeLength);
+	if (!bridge_) return;
 	neck_ = (int8_t*)sdram_malloc(kWGNeckLength);
+	if (!neck_) return;
     memset(bridge_, 0, sizeof(int8_t[kWGBridgeLength]));
     memset(neck_, 0, sizeof(int8_t[kWGNeckLength]));
 	phy_.delay_ptr = 0;
@@ -1487,6 +1491,7 @@ struct PhysicalModellingState {
   public:
 void Init(){
 	bore_ = (int16_t*)sdram_malloc(sizeof(int16_t[kWGBoreLength]));
+	if (!bore_) return;
     memset((void *)bore_, 0, sizeof(int16_t[kWGBoreLength]));
 	phy_.delay_ptr = 0;
 	phy_.excitation_ptr = 0;
@@ -1578,7 +1583,9 @@ struct PhysicalModellingState {
   public:
 void Init(){
 	bore_ = (int8_t*)sdram_malloc(sizeof(int8_t[kWGFBoreLength]));
+	if (!bore_) return;
 	jet_ = (int8_t*)sdram_malloc(sizeof(int8_t[kWGJetLength]));
+	if (!jet_) return;
     memset((void *)bore_, 0, sizeof(int8_t[kWGFBoreLength]));
     memset((void *)jet_, 0, sizeof(int8_t[kWGJetLength]));
 	phy_.delay_ptr = 0;

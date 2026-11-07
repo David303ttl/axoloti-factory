@@ -27,7 +27,9 @@ http://mutable-instruments.com</sDescription>
          <include>./rings_fx.h</include>
       </includes>
       <code.declaration><![CDATA[rings_fx::Reverb reverb;]]></code.declaration>
-      <code.init><![CDATA[reverb.Init((uint16_t*) sdram_malloc(32768));]]></code.init>
+<code.init><![CDATA[uint16_t* buf = (uint16_t*) sdram_malloc(32768);
+if (!buf) return;
+reverb.Init(buf);]]></code.init>
       <code.krate><![CDATA[static float left[BUFSIZE];
 static float right[BUFSIZE];
 

@@ -116,7 +116,10 @@ if(r) {
 }
 
 const int ELEMENTS_SZ= 32768;
-part.Init( (uint16_t *) sdram_malloc(ELEMENTS_SZ) );
+uint16_t* elements_buffer = (uint16_t*) sdram_malloc(ELEMENTS_SZ);
+if (!elements_buffer) return;
+part.Init(elements_buffer);
+if (sdram_get_free() < 0) return;
 
 LogTextMessage("Elements initialised, SDRAM free %d", sdram_get_free() );
 
