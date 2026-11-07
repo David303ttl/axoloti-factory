@@ -7,7 +7,7 @@ The leftmost checkbox toggles LSB (0x0001), the rightmost toggles MSB (0x8000).<
       <helpPatch>ctrl.axh</helpPatch>
       <inlets/>
       <outlets>
-         <frac32 name="o" description="output"/>
+         <frac32 name="o" description="output" noLabel="true"/>
       </outlets>
       <displays/>
       <params>

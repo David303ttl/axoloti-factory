@@ -18,7 +18,6 @@
       <attribs/>
       <includes>
          <include>./streamer.h</include>
-         <include>chibios/ext/fatfs/src/ff.h</include>
       </includes>
       <code.declaration><![CDATA[WORKING_AREA(waThreadSD, 900);
    sdReadFilePingpong *stream;
@@ -33,7 +32,7 @@ stream->offset = -1;
 starttrig = 0;
 stoptrig = 0;
 stream->pThreadSD = chThdCreateStatic(waThreadSD, sizeof(waThreadSD),
-                    HIGHPRIO, ThreadSD, (void *)stream);]]></code.init>
+                    HIGHPRIO, (tfunc_t)ThreadSD, (void *)stream);]]></code.init>
       <code.dispose><![CDATA[sdStopStreamer(stream);]]></code.dispose>
       <code.krate><![CDATA[int32_t i;
 outlet_end = 0;

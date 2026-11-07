@@ -1,5 +1,5 @@
-#include "../chibios/ext/fatfs/src/ff.h"
-#include "../chibios/os/various/chprintf.c"
+#ifndef WAVE_SD_BENCHMARK_H_
+#define WAVE_SD_BENCHMARK_H_
 
 #define SDREADFILEPINGPONGSIZE 2048
 typedef struct {
@@ -137,5 +137,7 @@ static msg_t ThreadBenchmarkSD(void *arg) {
 static WORKING_AREA(waThreadSD0, 1024) __attribute__ ((section (".data")));
 
 void sdbenchmark(void){
-  sdStreams[0].pThreadSD = chThdCreateStatic(waThreadSD0, sizeof(waThreadSD0), NORMALPRIO, ThreadBenchmarkSD, NULL);
+  sdStreams[0].pThreadSD = chThdCreateStatic(waThreadSD0, sizeof(waThreadSD0), NORMALPRIO, (tfunc_t)ThreadBenchmarkSD, NULL);
 }
+
+#endif /* WAVE_SD_BENCHMARK_H_ */
