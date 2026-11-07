@@ -53,6 +53,7 @@ int16_t *sample;
 uint32_t smp_length;]]></code.declaration>
     <code.init><![CDATA[static int16_t _sample[MAX_LENGTH] __attribute__((section (".sdram")));
 sample = &_sample[0];
+smp_length = 0;
 FIL FileObject;
 FRESULT err;
 
@@ -67,10 +68,12 @@ if (err != FR_OK) {
 	}
 	return;
 }
-err = f_read(&FileObject, (char *)sample, sizeof(_sample), &smp_length);
+UINT bytes_read = 0;
+err = f_read(&FileObject, (char *)sample, sizeof(_sample), &bytes_read);
+FRESULT close_err = f_close(&FileObject);
 if (err != FR_OK) {LogTextMessage("Read failed\n"); return;}
-err = f_close(&FileObject);
-if (err != FR_OK) {LogTextMessage("Close failed\n"); return;}
+if (close_err != FR_OK) {LogTextMessage("Close failed\n"); return;}
+smp_length = bytes_read;
 
 int i=smp_length/2; // 16 bit per sample
 // clear from file end to array end
@@ -85,8 +88,11 @@ uint32_t index = (uint32_t)(total_pos >> 32); /* Extract the top 32-bits (Index)
 uint32_t frac = (uint32_t)(total_pos & 0xFFFFFFFF);  /* and bottom 32-bits (Fraction) */
 
 
-if (index >= smp_length - 1) { /* Guard against out-of-bounds */
-	outlet_o = ((int32_t)sample[smp_length - 1]) << GAIN;
+uint32_t sample_count = smp_length / sizeof(*sample);
+if (sample_count == 0) {
+	outlet_o = 0;
+} else if (index >= sample_count - 1) {
+	outlet_o = ((int32_t)sample[sample_count - 1]) << GAIN;
 } else {
 	/* Fetch samples */
 	int32_t y1 = ((int32_t)sample[index]) << GAIN;
