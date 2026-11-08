@@ -13,7 +13,7 @@
       <attribs/>
       <code.krate><![CDATA[
 asm volatile("mov r0, r0");
-outlet_t = hal_lld_get_counter_value();
+outlet_t = chSysGetRealtimeCounterX();
 asm volatile("mov r0, r0");
 ]]></code.krate>
    </obj.normal>

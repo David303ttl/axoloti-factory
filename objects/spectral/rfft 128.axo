@@ -44,7 +44,7 @@ msg_t ThreadX2(){
       for(i=0;i<n;i++){
         hanning_q31[i] = (int32_t)(0.5f*2147483647.0f*(1.0f-cosf(2.0f*PI*i/n)));
       }
-      while (!chThdShouldTerminate()) {
+      while (!chThdShouldTerminateX()) {
         chThdSleepMilliseconds(20);
         if (state == 128) {
           arm_mult_q31(hanning_q31, &inbuf[0],&inbuf[0], n);
@@ -68,8 +68,8 @@ msg_t ThreadX2(){
 static msg_t ThreadX(void *arg) {
 ((attr_parent *)arg)->ThreadX2();
 }
-WORKING_AREA(waThreadX, 4096);
-Thread *Thd;]]></code.declaration>
+THD_WORKING_AREA(waThreadX, 4096);
+thread_t *Thd;]]></code.declaration>
       <code.init><![CDATA[int i;
 for(i=0;i<128;i++) inbuf[i]=0;
 for(i=0;i<128;i++) outbuf[i]=0;

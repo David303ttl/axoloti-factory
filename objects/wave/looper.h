@@ -31,7 +31,7 @@ typedef enum {
 #define SZ_TBL 64
 
 typedef struct {
-  Thread *pThreadSD;
+  thread_t *pThreadSD;
   DWORD clmt[SZ_TBL];
   volatile stream_state playpong;
   volatile stream_state recpong;
@@ -111,7 +111,7 @@ void stream_close(sdFilePingpongRW *s) {
 static __INL msg_t ThreadSD(void *arg) {
   volatile FRESULT err;
   UINT bytes_read;
-  while (!chThdShouldTerminate()) {
+  while (!chThdShouldTerminateX()) {
     int busy;
     do {
       busy = 0;
@@ -156,8 +156,8 @@ static __INL msg_t ThreadSD(void *arg) {
         chSysEnable();
         busy = 1;
       }
-    } while ((busy != 0) && !chThdShouldTerminate());
-    if (!chThdShouldTerminate())
+    } while ((busy != 0) && !chThdShouldTerminateX());
+    if (!chThdShouldTerminateX())
       chEvtWaitAnyTimeout((eventmask_t)1, 10);
   }
   return (msg_t)0;

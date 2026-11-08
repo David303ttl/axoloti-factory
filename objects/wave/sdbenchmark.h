@@ -14,7 +14,7 @@ typedef struct {
 
 typedef struct {
   FIL f;
-  Thread *pThreadSD;
+  thread_t *pThreadSD;
   DWORD clmt[SZ_TBL];
   char filename[32];
   fbuffer fbuff0;
@@ -46,7 +46,7 @@ void BenchmarkBS(int bufsize, int nstreams){
   }
   volatile FRESULT err;
 
-  int t0 = chTimeNow();
+  int t0 = chVTGetSystemTimeX();
   // open for write
   for(i=0;i<nstreams;i++){
       sdReadFilePingpong *s = (sdReadFilePingpong*)(0x20000000 | (int)&sdStreams[i]);
@@ -65,7 +65,7 @@ void BenchmarkBS(int bufsize, int nstreams){
     }else LogTextMessage("lseek3 OK...");
   }
   // write
-  int t1 = chTimeNow();
+  int t1 = chVTGetSystemTimeX();
   unsigned int bytes_read;
   int j;
   for(j=0;j<nbuf;j++){
@@ -75,7 +75,7 @@ void BenchmarkBS(int bufsize, int nstreams){
       if (err) reportFError(err);
     }
   }
-  int t2 = chTimeNow();
+  int t2 = chVTGetSystemTimeX();
   // close
   for(i=0;i<nstreams;i++){
     sdReadFilePingpong *s = (sdReadFilePingpong*)(0x20000000 | (int)&sdStreams[i]);
@@ -83,7 +83,7 @@ void BenchmarkBS(int bufsize, int nstreams){
     if (err) reportFError(err); 
   }
   // open for read
-  int t3 = chTimeNow();
+  int t3 = chVTGetSystemTimeX();
   for(i=0;i<nstreams;i++){
     sdReadFilePingpong *s = (sdReadFilePingpong*)(0x20000000 | (int)&sdStreams[i]);
     err = f_open(&s->f, &s->filename[0], FA_READ | FA_OPEN_EXISTING);
@@ -95,7 +95,7 @@ void BenchmarkBS(int bufsize, int nstreams){
     }
   }
   // read
-  int t4 = chTimeNow();
+  int t4 = chVTGetSystemTimeX();
   for(j=0;j<nbuf;j++){
     for(i=0;i<nstreams;i++){
       sdReadFilePingpong *s = (sdReadFilePingpong*)(0x20000000 | (int)&sdStreams[i]);
@@ -103,7 +103,7 @@ void BenchmarkBS(int bufsize, int nstreams){
       if (err) reportFError(err); 
     }
   }
-  int t5 = chTimeNow();
+  int t5 = chVTGetSystemTimeX();
   // close
   for(i=0;i<nstreams;i++){
       sdReadFilePingpong *s = (sdReadFilePingpong*)(0x20000000 | (int)&sdStreams[i]);
@@ -134,7 +134,7 @@ static msg_t ThreadBenchmarkSD(void *arg) {
   LogTextMessage("SDCard benchmark finished.");
 }
 
-static WORKING_AREA(waThreadSD0, 1024) __attribute__ ((section (".data")));
+static THD_WORKING_AREA(waThreadSD0, 1024) __attribute__ ((section (".data")));
 
 void sdbenchmark(void){
   sdStreams[0].pThreadSD = chThdCreateStatic(waThreadSD0, sizeof(waThreadSD0), NORMALPRIO, ThreadBenchmarkSD, NULL);

@@ -23,17 +23,17 @@ int32_t out1,out2;
 attr_script
 msg_t ThreadX2(){
   setup();
-  while(!chThdShouldTerminate()){
+  while(!chThdShouldTerminateX()){
      loop();
      chThdSleepMilliseconds(1);
   }
   chThdExit((msg_t)0);
 }
-static msg_t ThreadX(void *arg) {
+static void ThreadX(void *arg) {
 ((attr_parent *)arg)->ThreadX2();
 }
-WORKING_AREA(waThreadX, 1024);
-Thread *Thd;
+THD_WORKING_AREA(waThreadX, 1024);
+thread_t *Thd;
 ]]></code.declaration>
       <code.init><![CDATA[in1=0;in2=0;out1=0;out2=0;
   Thd = chThdCreateStatic(waThreadX, sizeof(waThreadX),

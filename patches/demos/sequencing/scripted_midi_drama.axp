@@ -3,7 +3,7 @@
       <params/>
       <attribs>
          <text attributeName="script">
-            <sText><![CDATA[while(!chThdShouldTerminate()){
+            <sText><![CDATA[while(!chThdShouldTerminateX()){
 	int i;
 	PatchMidiInHandler((midi_device_t) 0, 0,MIDI_NOTE_ON,55,80);
 	PatchMidiInHandler((midi_device_t) 0, 0,MIDI_NOTE_ON,67,80);
@@ -14,10 +14,10 @@
 		out1 = (i+1)<<21;
 		out2 = (i)<<21;
 		chThdSleepMilliseconds(500);
-		if (chThdShouldTerminate()) break;
+		if (chThdShouldTerminateX()) break;
 		out1 = 0<<21;
 		chThdSleepMilliseconds(500);
-		if (chThdShouldTerminate()) break;
+		if (chThdShouldTerminateX()) break;
 	}	
 	PatchMidiInHandler((midi_device_t) 0, 0,MIDI_NOTE_OFF,55,80);
 	PatchMidiInHandler((midi_device_t) 0, 0,MIDI_NOTE_OFF,67,80);
@@ -33,10 +33,10 @@
 		out1 = (i+1)<<21;
 		out2 = (i)<<21;
 		chThdSleepMilliseconds(500);
-		if (chThdShouldTerminate()) break;
+		if (chThdShouldTerminateX()) break;
 		out1 = 0<<21;
 		chThdSleepMilliseconds(500);
-		if (chThdShouldTerminate()) break;
+		if (chThdShouldTerminateX()) break;
 	}	
 	PatchMidiInHandler((midi_device_t) 0, 0,MIDI_NOTE_OFF,50,80);
 	PatchMidiInHandler((midi_device_t) 0, 0,MIDI_NOTE_OFF,62,80);

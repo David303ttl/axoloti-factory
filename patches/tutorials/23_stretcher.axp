@@ -1,21 +1,21 @@
-<patch-1.0 appVersion="1.0.8">
-   <obj type="ctrl/dial p" sha="1f21216639bb798a4ea7902940999a5bcfd0de90" name="c1" x="80" y="20">
+<patch-1.0 appVersion="1.2.0.0">
+   <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="c1" x="80" y="20">
       <params>
          <frac32.u.map name="value" value="0.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="conv/interp" sha="5a9175b8d44d830756d1599a86b4a6a49813a19b" name="interp_1" x="160" y="20">
+   <obj type="conv/interp" uuid="d68c1a8709d8b55e3de8715d727ec0a2d8569d9a" name="interp_1" x="160" y="20">
       <params/>
       <attribs/>
    </obj>
-   <obj type="filter/lp1" sha="290a234e2f83eb072198d0158bcd5da02a3606c3" name="lowpass_1" x="240" y="20">
+   <obj type="filter/lp1" uuid="1b1fd7085e44d2b7b80b59b8d68796b909c1b2cc" name="lowpass_1" x="240" y="20">
       <params>
          <frac32.s.map name="freq" value="0.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="ctrl/dial p" sha="1f21216639bb798a4ea7902940999a5bcfd0de90" name="c2" x="120" y="120">
+   <obj type="ctrl/dial p" uuid="cc5d2846c3d50e425f450c4b9851371b54f4d674" name="c2" x="120" y="120">
       <params>
          <frac32.u.map name="value" value="16.0"/>
       </params>
@@ -32,13 +32,13 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="osc/phasor compl" sha="c95d1332c224aad738fb4504cb00706af8221028" name="phasor3q_1" x="42" y="210">
+   <obj type="osc/phasor compl" uuid="11940ece0e29f3fae0d3c8e1fdabd63cacac5b48" name="phasor3q_1" x="42" y="210">
       <params>
          <frac32.s.map name="pitch" value="-32.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="wave/flashread interp" sha="ee182884ff6601bedd6fe14e6f89cd89864e3b20" name="flashwaveread_1" x="440" y="220">
+   <obj type="wave/flashread interp" uuid="3bee14d4674a0d360d134757716120ffc29310a4" name="flashwaveread_1" x="440" y="220">
       <params/>
       <attribs>
          <combo attributeName="sample" selection="808hatclose"/>
@@ -64,7 +64,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="wave/flashread interp" sha="ee182884ff6601bedd6fe14e6f89cd89864e3b20" name="flashwaveread_2" x="440" y="400">
+   <obj type="wave/flashread interp" uuid="3bee14d4674a0d360d134757716120ffc29310a4" name="flashwaveread_2" x="440" y="400">
       <params/>
       <attribs>
          <combo attributeName="sample" selection="808hatclose"/>
@@ -82,11 +82,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="audio/out left" sha="63a81542ba731f54cb620e2404adb2dd7b742c1e" name="dac_11" x="840" y="400">
+   <obj type="audio/out left" uuid="b11a3c09b2fdd575ea8212f2ce7743d5269253b1" name="dac_11" x="840" y="400">
       <params/>
       <attribs/>
    </obj>
-   <obj type="audio/out right" sha="dbc48d941904b6914bc54f7b80fcd592eaad4853" name="dac_21" x="840" y="460">
+   <obj type="audio/out right" uuid="e58a4cbbb087052c5480366e3f5d3a04aa319777" name="dac_21" x="840" y="460">
       <params/>
       <attribs/>
    </obj>

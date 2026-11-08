@@ -22,17 +22,15 @@
                <string>808midtom</string>
                <string>808lotom</string>
                <string>808snare</string>
-               <string>rockwehrmann</string>
             </MenuEntries>
             <CEntries>
-               <string>808bd</string>
-               <string>808hatclose</string>
-               <string>808hatopen</string>
-               <string>808hitom</string>
-               <string>808midtom</string>
-               <string>808lotom</string>
-               <string>808snare</string>
-               <string>rockwehrmann</string>
+               <string>bd</string>
+               <string>hatclose</string>
+               <string>hatopen</string>
+               <string>hitom</string>
+               <string>midtom</string>
+               <string>lotom</string>
+               <string>snare</string>
             </CEntries>
          </combo>
          <combo name="size">
@@ -74,22 +72,36 @@
             </CEntries>
          </combo>
       </attribs>
-      <code.declaration><![CDATA[static const uint32_t LENGTHPOW = (attr_size);
-static const uint32_t LENGTH = (1<<attr_size);
-static const uint32_t LENGTHMASK = ((1<<attr_size)-1);
-static const uint32_t BITS = 16;
+      <code.declaration><![CDATA[const int16_t *sample;
+uint32_t smp_length;
+static const uint32_t LENGTH = (1u<<attr_size);
 static const uint32_t GAIN = 12;
 ]]></code.declaration>
-      <code.srate><![CDATA[extern int16_t _binary_attr_sample_raw_start;
-   uint32_t asat = __USAT(inlet_pos,27);
-    int index = asat>>(27-LENGTHPOW);
-   int32_t y1 = (((int16_t *)(&_binary_attr_sample_raw_start))[index])<<GAIN;
-   int32_t y2 = (((int16_t *)(&_binary_attr_sample_raw_start))[index+1])<<GAIN;
-   int frac = (asat - (index<<(27-LENGTHPOW)))<<(LENGTHPOW+3);
+      <code.init><![CDATA[extern const uint8_t _binary_attr_sample_raw_start[];
+extern const uint8_t _binary_attr_sample_raw_end[];
+sample = (const int16_t *)_binary_attr_sample_raw_start;
+smp_length = (uint32_t)(_binary_attr_sample_raw_end - _binary_attr_sample_raw_start);
+]]></code.init>
+      <code.srate><![CDATA[uint32_t sample_count = smp_length / sizeof(int16_t);
+if (sample == 0 || sample_count == 0) outlet_o = 0;
+else {
+  uint32_t table_count = sample_count < LENGTH ? sample_count : LENGTH;
+  uint32_t asat = __USAT(inlet_pos,27);
+  uint64_t scaled = (uint64_t)asat * table_count;
+  uint32_t index = (uint32_t)(scaled>>27);
+  if (index >= table_count) index = table_count - 1;
+  uint32_t next = index + 1 < table_count ? index + 1 : index;
+  int32_t y1 = (int32_t)sample[index] * (1<<GAIN);
+  int32_t y2 = (int32_t)sample[next] * (1<<GAIN);
   int32_t rr;
-  rr = ___SMMUL(y1,(1<<30)-frac);
-  rr = ___SMMLA(y2,frac,rr);
-outlet_o= rr<<2;
+  if (next == index) outlet_o = y1;
+  else {
+    int32_t frac = (int32_t)((scaled - ((uint64_t)index<<27))<<3);
+    rr = ___SMMUL(y1,(1<<30)-frac);
+    rr = ___SMMLA(y2,frac,rr);
+    outlet_o = rr * 4;
+  }
+}
 ]]></code.srate>
    </obj.normal>
 </objdefs>
