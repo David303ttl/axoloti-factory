@@ -15,24 +15,24 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="224" y="28">
+   <obj type="math/inv" name="inv1" x="224" y="28" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce" sha="527f9ea38e810968a5d209b2913f846bcc5cbfea">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c3" x="336" y="28">
+   <obj type="math/*c" name="*c3" x="336" y="28" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" sha="60143a29e35f452025e9edaa2dec6e660ecb9c6e">
       <params>
          <frac32.u.map name="amp" value="35.0"/>
       </params>
       <attribs/>
    </obj>
-   <zombie type="env_old/ahd lin m x" uuid="zombie" name="envahd1" x="448" y="28"/>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c3_" x="224" y="70">
+   <obj type="env/ahd lin m" uuid="f9b46834ce96425064b4ed7f53ad8b91ea1ac0ef" name="envahd1" x="448" y="28"><params/><attribs/></obj>
+   <obj type="math/*c" name="*c3_" x="224" y="70" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" sha="60143a29e35f452025e9edaa2dec6e660ecb9c6e">
       <params>
          <frac32.u.map name="amp" value="16.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1_" x="336" y="112">
+   <obj type="math/inv" name="inv1_" x="336" y="112" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce" sha="527f9ea38e810968a5d209b2913f846bcc5cbfea">
       <params/>
       <attribs/>
    </obj>
@@ -42,7 +42,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="*c2" x="714" y="112">
+   <obj type="mix/mix 2" name="*c2" x="714" y="112" uuid="682ea5496ded046d981e26b720a6e7f8eca97541" sha="8356eb392edeb3251d3de74955ee9c38cb87d1d0">
       <params>
          <frac32.u.map name="gain1" value="4.5"/>
          <frac32.u.map name="gain2" value="8.0"/>
@@ -55,11 +55,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/div 32" sha="41545586fbaebf68c4240a279a5619af09b5c1a1" name="div321" x="168" y="168">
+   <obj type="math/div 32" name="div321" x="168" y="168" uuid="40e43d0d284fded6b6cfadd45a5cb69c8d713691" sha="33fad2a22c3831e3a91cb48ab2fbaa4677fab4ed">
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix11" x="70" y="252">
+   <obj type="mix/mix 1" name="mix11" x="70" y="252" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa" sha="274a68677775c2a77aca013117fb7f63f285efba">
       <params>
          <frac32.u.map name="gain1" value="1.5"/>
       </params>
@@ -71,7 +71,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="67c325bf12e5b73ad58df89daf7899831777003c" name="mix21" x="350" y="280">
+   <obj type="mix/mix 2" name="mix21" x="350" y="280" uuid="30c04239c88e09d3fa5c333b784ecf54f1b0e268" sha="f5582f4fce1b25a668f1f5dead41cccf09e4e7be">
       <params>
          <frac32.u.map name="gain1" value="40.0"/>
          <frac32.u.map name="gain2" value="1.5541162490844727"/>
@@ -136,7 +136,7 @@
          <dest obj="mix21" inlet="in1"/>
       </net>
       <net>
-         <source class="axoloti.outlets.OutletInstanceZombie" obj="envahd1" outlet="env"/>
+         <source obj="envahd1" outlet="env"/>
          <dest obj="vca_1" inlet="v"/>
          <dest obj="*c2" inlet="in2"/>
          <dest obj="a" inlet="outlet"/>
@@ -199,7 +199,7 @@
       </net>
       <net>
          <source obj="keyb1" outlet="gate"/>
-         <dest class="axoloti.inlets.InletInstanceZombie" obj="envahd1" inlet="trig"/>
+         <dest obj="envahd1" inlet="trig"/>
       </net>
       <net>
          <source obj="keyb1" outlet="velocity"/>
@@ -211,7 +211,7 @@
       </net>
       <net>
          <source obj="*c3" outlet="out"/>
-         <dest class="axoloti.inlets.InletInstanceZombie" obj="envahd1" inlet="am"/>
+         <dest obj="envahd1" inlet="a"/>
       </net>
       <net>
          <source obj="keyb1" outlet="releaseVelocity"/>
@@ -223,7 +223,7 @@
       </net>
       <net>
          <source obj="inv1_" outlet="out"/>
-         <dest class="axoloti.inlets.InletInstanceZombie" obj="envahd1" inlet="dm"/>
+         <dest obj="envahd1" inlet="d"/>
       </net>
       <net>
          <source obj="*c_1" outlet="out"/>

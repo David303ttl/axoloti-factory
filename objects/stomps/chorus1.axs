@@ -27,11 +27,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1" x="224" y="154">
+   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1" x="224" y="154" uuid="f6f63d71053d572d3c795f83c7ec11dfbbce82dd">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1" x="350" y="154">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1" x="350" y="154" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -47,7 +47,7 @@
          <objref attributeName="delayname" obj="del"/>
       </attribs>
    </obj>
-   <obj type="mux/mux 2" sha="c6b90f8c9bc3d2f8632ce90fca7a738c7153eb2f" name="mux_1" x="630" y="154">
+   <obj type="mux/mux 2" sha="c6b90f8c9bc3d2f8632ce90fca7a738c7153eb2f" name="mux_1" x="630" y="154" uuid="539c246f4c360ac476e128cfbfa84348fb7f7e73">
       <params/>
       <attribs/>
    </obj>
@@ -55,15 +55,15 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="168" y="224">
+   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="168" y="224" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
       <params/>
       <attribs/>
    </obj>
-   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1_" x="224" y="224">
+   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1_" x="224" y="224" uuid="f6f63d71053d572d3c795f83c7ec11dfbbce82dd">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1_" x="350" y="224">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1_" x="350" y="224" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -79,7 +79,7 @@
          <objref attributeName="delayname" obj="del"/>
       </attribs>
    </obj>
-   <obj type="mux/mux 2" sha="c6b90f8c9bc3d2f8632ce90fca7a738c7153eb2f" name="mux_2" x="630" y="266">
+   <obj type="mux/mux 2" sha="c6b90f8c9bc3d2f8632ce90fca7a738c7153eb2f" name="mux_2" x="630" y="266" uuid="539c246f4c360ac476e128cfbfa84348fb7f7e73">
       <params/>
       <attribs/>
    </obj>
@@ -156,7 +156,7 @@
    </nets>
    <settings>
       <subpatchmode>normal</subpatchmode>
-      <MidiChannel>0</MidiChannel>
+      <MidiChannel>1</MidiChannel>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

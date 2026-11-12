@@ -11,7 +11,7 @@
       <displays/>
       <params/>
       <attribs/>
-      <code.declaration><![CDATA[char * _outlet;
+      <code.declaration><![CDATA[const char * _outlet;
 ]]></code.declaration>
       <code.krate><![CDATA[   _outlet = inlet_outlet;
 ]]></code.krate>

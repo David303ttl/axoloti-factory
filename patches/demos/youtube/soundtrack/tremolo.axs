@@ -13,7 +13,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="intesity" x="140" y="70">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="intesity" x="140" y="70" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" onParent="true" value="3.5"/>
       </params>

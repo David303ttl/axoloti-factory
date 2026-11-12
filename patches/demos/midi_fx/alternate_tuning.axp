@@ -49,17 +49,17 @@
          <spinner attributeName="denominator" value="12"/>
       </attribs>
    </obj>
-   <obj type="table/read" sha="17be286e1755b43c67fa0ca370d63d3d38f8dcd7" name="tabread1" x="210" y="266">
+   <obj type="table/read" uuid="65eb8d0f6a3344638de94c9882999b9af15510d0" sha="17be286e1755b43c67fa0ca370d63d3d38f8dcd7" name="tabread1" x="210" y="266">
       <params/>
       <attribs>
          <objref attributeName="table" obj="tuning"/>
       </attribs>
    </obj>
-   <obj type="math/div 64" sha="23bcd526229a9199a165fe7a57c62168cb21de0d" name="div641" x="350" y="266">
+   <obj type="math/div 64" sha="23bcd526229a9199a165fe7a57c62168cb21de0d" name="div641" x="350" y="266" uuid="da82c8ea54e956811f1d7264d921628e3301971e">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+2" x="434" y="266">
+   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+2" x="434" y="266" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>

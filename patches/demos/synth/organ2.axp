@@ -15,7 +15,7 @@
       </params>
       <attribs>
          <combo attributeName="poly" selection="12"/>
-         <combo attributeName="midichannel" selection="0"/>
+         <combo attributeName="midichannel" selection="inherit"/>
          <combo attributeName="mididevice" selection="omni"/>
          <combo attributeName="midiport" selection="omni"/>
       </attribs>
@@ -30,7 +30,7 @@
             </params>
             <attribs/>
          </obj>
-         <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="excit" x="210" y="14">
+         <obj type="mix/mix 2" name="excit" x="210" y="14" uuid="682ea5496ded046d981e26b720a6e7f8eca97541">
             <params>
                <frac32.u.map name="gain1" onParent="true" value="6.0"/>
                <frac32.u.map name="gain2" onParent="true" value="32.0"/>
@@ -45,7 +45,7 @@
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="reso" x="350" y="154">
+         <obj type="math/*c" name="reso" x="350" y="154" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
             <params>
                <frac32.u.map name="amp" onParent="true" value="3.989999771118164"/>
             </params>

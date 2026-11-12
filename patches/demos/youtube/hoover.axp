@@ -27,7 +27,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix12" x="252" y="84">
+   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix12" x="252" y="84" uuid="682ea5496ded046d981e26b720a6e7f8eca97541">
       <params>
          <frac32.u.map name="gain1" value="12.0"/>
          <frac32.u.map name="gain2" value="12.0"/>
@@ -40,7 +40,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix11_" x="448" y="84">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix11_" x="448" y="84" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="13.5"/>
       </params>
@@ -71,7 +71,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_1" x="938" y="154">
+   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_1" x="938" y="154" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="39.5"/>
       </params>
@@ -83,7 +83,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix11" x="448" y="182">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix11" x="448" y="182" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="11.0"/>
       </params>
@@ -95,11 +95,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv_2" x="392" y="280">
+   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv_2" x="392" y="280" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix11__" x="448" y="280">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix11__" x="448" y="280" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="10.0"/>
       </params>

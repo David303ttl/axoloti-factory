@@ -28,7 +28,7 @@ uint8_t _touch;
 _note = 0;
 _touch = 0;
 ]]></code.init>
-      <code.krate><![CDATA[outlet_note= _note<<21;
+      <code.krate><![CDATA[outlet_note= (_note * (1 << 21));
 outlet_gate= _gate;
 outlet_gate2= _gate2;
 _gate2 = _gate;

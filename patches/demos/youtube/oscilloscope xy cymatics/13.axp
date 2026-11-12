@@ -57,7 +57,7 @@ for(i=0;i<LENGTH;i++)
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/&gt;" sha="2ca219d058543958cc56c30fee1066860b90e0ed" name="&gt;_1" x="1176" y="70">
+   <obj type="math/&gt;" sha="2ca219d058543958cc56c30fee1066860b90e0ed" name="&gt;_1" x="1176" y="70" uuid="a459588d6498caeb4daf3a07f9d5e9b4a657262f">
       <params/>
       <attribs/>
    </obj>
@@ -214,13 +214,13 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="math/quantize" sha="4c4a90a911707903fc9fc7215d7c31567a87181e" name="quantize_5" x="70" y="308">
+   <obj type="math/quantize" sha="4c4a90a911707903fc9fc7215d7c31567a87181e" name="quantize_5" x="70" y="308" uuid="5cf03957d7a41d6aa91bb9bfaec2840f8f4bed7c">
       <params/>
       <attribs>
          <spinner attributeName="bits" value="6"/>
       </attribs>
    </obj>
-   <obj type="logic/latch" sha="b781d1a002c7417144159fa9f6f2c56740b9e3cb" name="samplehold_4" x="210" y="308">
+   <obj type="logic/latch" sha="b781d1a002c7417144159fa9f6f2c56740b9e3cb" name="samplehold_4" x="210" y="308" uuid="14750683752bd43205826430adb7168dae3cc2c">
       <params/>
       <attribs/>
    </obj>
@@ -300,7 +300,7 @@ for(i=0;i<LENGTH;i++)
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_4" x="14" y="392">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_4" x="14" y="392" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -316,7 +316,7 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix_1" x="644" y="420">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix_1" x="644" y="420" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="11.5"/>
       </params>
@@ -470,7 +470,7 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="logic/latch" sha="b781d1a002c7417144159fa9f6f2c56740b9e3cb" name="samplehold_5" x="378" y="476">
+   <obj type="logic/latch" sha="b781d1a002c7417144159fa9f6f2c56740b9e3cb" name="samplehold_5" x="378" y="476" uuid="14750683752bd43205826430adb7168dae3cc2c">
       <params/>
       <attribs/>
    </obj>
@@ -511,17 +511,17 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="math/quantize" sha="4c4a90a911707903fc9fc7215d7c31567a87181e" name="quantize_2" x="868" y="504">
+   <obj type="math/quantize" sha="4c4a90a911707903fc9fc7215d7c31567a87181e" name="quantize_2" x="868" y="504" uuid="5cf03957d7a41d6aa91bb9bfaec2840f8f4bed7c">
       <params/>
       <attribs>
          <spinner attributeName="bits" value="6"/>
       </attribs>
    </obj>
-   <obj type="math/+" sha="fdc908fd68bce74b7ba3aed17e88e9830021f0a9" name="fdbkcomb_1" x="952" y="504">
+   <obj type="math/+" sha="fdc908fd68bce74b7ba3aed17e88e9830021f0a9" name="fdbkcomb_1" x="952" y="504" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>
-   <obj type="logic/latch" sha="6b75d9b8a5bb2dff725df2beb52d112d68a61e7a" name="samplehold_1" x="1036" y="504">
+   <obj type="logic/latch" sha="6b75d9b8a5bb2dff725df2beb52d112d68a61e7a" name="samplehold_1" x="1036" y="504" uuid="14750683752bd43205826430adb7168dae3cc2c">
       <params/>
       <attribs/>
    </obj>
@@ -531,7 +531,7 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_1" x="1232" y="504">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_1" x="1232" y="504" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -580,7 +580,7 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="conv/unipolar2bipolar" sha="1036bdea372166d396fc75329ed1d057bd4af3fb" name="unipolar2bipolar_4" x="1596" y="504">
+   <obj type="conv/unipolar2bipolar" sha="1036bdea372166d396fc75329ed1d057bd4af3fb" name="unipolar2bipolar_4" x="1596" y="504" uuid="efc8ee28c508740c5edf7995eaaa07a6d6818e5e">
       <params/>
       <attribs/>
    </obj>
@@ -617,11 +617,11 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+" sha="fdc908fd68bce74b7ba3aed17e88e9830021f0a9" name="fdbkcomb_4" x="98" y="546">
+   <obj type="math/+" sha="fdc908fd68bce74b7ba3aed17e88e9830021f0a9" name="fdbkcomb_4" x="98" y="546" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>
-   <obj type="logic/latch" sha="6b75d9b8a5bb2dff725df2beb52d112d68a61e7a" name="samplehold_6" x="168" y="546">
+   <obj type="logic/latch" sha="6b75d9b8a5bb2dff725df2beb52d112d68a61e7a" name="samplehold_6" x="168" y="546" uuid="14750683752bd43205826430adb7168dae3cc2c">
       <params/>
       <attribs/>
    </obj>
@@ -686,17 +686,17 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="math/quantize" sha="4c4a90a911707903fc9fc7215d7c31567a87181e" name="quantize_3" x="868" y="602">
+   <obj type="math/quantize" sha="4c4a90a911707903fc9fc7215d7c31567a87181e" name="quantize_3" x="868" y="602" uuid="5cf03957d7a41d6aa91bb9bfaec2840f8f4bed7c">
       <params/>
       <attribs>
          <spinner attributeName="bits" value="6"/>
       </attribs>
    </obj>
-   <obj type="math/+" sha="fdc908fd68bce74b7ba3aed17e88e9830021f0a9" name="fdbkcomb_2" x="952" y="602">
+   <obj type="math/+" sha="fdc908fd68bce74b7ba3aed17e88e9830021f0a9" name="fdbkcomb_2" x="952" y="602" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>
-   <obj type="logic/latch" sha="6b75d9b8a5bb2dff725df2beb52d112d68a61e7a" name="samplehold_2" x="1036" y="602">
+   <obj type="logic/latch" sha="6b75d9b8a5bb2dff725df2beb52d112d68a61e7a" name="samplehold_2" x="1036" y="602" uuid="14750683752bd43205826430adb7168dae3cc2c">
       <params/>
       <attribs/>
    </obj>
@@ -706,7 +706,7 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_2" x="1232" y="602">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_2" x="1232" y="602" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -755,7 +755,7 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="conv/unipolar2bipolar" sha="1036bdea372166d396fc75329ed1d057bd4af3fb" name="unipolar2bipolar_5" x="1596" y="602">
+   <obj type="conv/unipolar2bipolar" sha="1036bdea372166d396fc75329ed1d057bd4af3fb" name="unipolar2bipolar_5" x="1596" y="602" uuid="efc8ee28c508740c5edf7995eaaa07a6d6818e5e">
       <params/>
       <attribs/>
    </obj>
@@ -806,17 +806,17 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="math/quantize" sha="4c4a90a911707903fc9fc7215d7c31567a87181e" name="quantize_4" x="868" y="700">
+   <obj type="math/quantize" sha="4c4a90a911707903fc9fc7215d7c31567a87181e" name="quantize_4" x="868" y="700" uuid="5cf03957d7a41d6aa91bb9bfaec2840f8f4bed7c">
       <params/>
       <attribs>
          <spinner attributeName="bits" value="6"/>
       </attribs>
    </obj>
-   <obj type="math/+" sha="fdc908fd68bce74b7ba3aed17e88e9830021f0a9" name="fdbkcomb_3" x="952" y="700">
+   <obj type="math/+" sha="fdc908fd68bce74b7ba3aed17e88e9830021f0a9" name="fdbkcomb_3" x="952" y="700" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>
-   <obj type="logic/latch" sha="6b75d9b8a5bb2dff725df2beb52d112d68a61e7a" name="samplehold_3" x="1036" y="700">
+   <obj type="logic/latch" sha="6b75d9b8a5bb2dff725df2beb52d112d68a61e7a" name="samplehold_3" x="1036" y="700" uuid="14750683752bd43205826430adb7168dae3cc2c">
       <params/>
       <attribs/>
    </obj>
@@ -826,7 +826,7 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_3" x="1232" y="700">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_3" x="1232" y="700" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -875,7 +875,7 @@ for(i=0;i<LENGTH;i++)
       </params>
       <attribs/>
    </obj>
-   <obj type="conv/unipolar2bipolar" sha="1036bdea372166d396fc75329ed1d057bd4af3fb" name="unipolar2bipolar_6" x="1596" y="700">
+   <obj type="conv/unipolar2bipolar" sha="1036bdea372166d396fc75329ed1d057bd4af3fb" name="unipolar2bipolar_6" x="1596" y="700" uuid="efc8ee28c508740c5edf7995eaaa07a6d6818e5e">
       <params/>
       <attribs/>
    </obj>
@@ -1743,6 +1743,8 @@ for(i=0;i<LENGTH;i++)
    </nets>
    <settings>
       <subpatchmode>no</subpatchmode>
+      <NPresets>8</NPresets>
+      <NPresetEntries>13</NPresetEntries>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

@@ -30,7 +30,7 @@ uint8_t _rvelo;
       <code.init><![CDATA[_gate = 0;
 _note = 0;
 ]]></code.init>
-      <code.krate><![CDATA[outlet_note= _note<<21;
+      <code.krate><![CDATA[outlet_note= (_note * (1 << 21));
 outlet_gate= _gate;
 outlet_gate2= _gate2;
 _gate2 = _gate;
@@ -53,7 +53,7 @@ outlet_releaseVelocity= _rvelo<<20;
     NMODULATIONTARGETS,
     &parent->PExch[0],
     &parent->PExModulationPrevVal[parent->polyIndex][parent->MODULATOR_attr_name_note],
-    _note<<21);
+    (_note * (1 << 21)));
 } else if (((status == MIDI_NOTE_ON + attr_midichannel) && (!data2))||
           (status == MIDI_NOTE_OFF + attr_midichannel)) {
   if (_note == data1-64) {

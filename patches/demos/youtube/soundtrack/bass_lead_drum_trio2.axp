@@ -87,7 +87,7 @@
          <combo attributeName="time" selection="42.6ms"/>
       </attribs>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c3" x="742" y="280">
+   <obj type="math/*c" name="*c3" x="742" y="280" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" sha="60143a29e35f452025e9edaa2dec6e660ecb9c6e">
       <params>
          <frac32.u.map name="amp" value="63.5"/>
       </params>

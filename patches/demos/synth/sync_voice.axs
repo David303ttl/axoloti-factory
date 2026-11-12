@@ -16,7 +16,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="dist/slew" sha="521ab25a6a0aa5d12cbe59b5c1f9630a2f01e167" name="slew_1" x="490" y="0">
+   <obj type="dist/slew" name="slew_1" x="490" y="0" uuid="707ebc5c162f073ad14978244bc6dda1984b8955" sha="5d51c7cc65b9cd237a4431536fc0b11b8dc4e1c">
       <params>
          <frac32.u.map name="slew" value="0.5"/>
       </params>
@@ -41,14 +41,14 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix2_1" x="238" y="180">
+   <obj type="mix/mix 2" name="mix2_1" x="238" y="180" uuid="682ea5496ded046d981e26b720a6e7f8eca97541" sha="8356eb392edeb3251d3de74955ee9c38cb87d1d0">
       <params>
          <frac32.u.map name="gain1" value="33.5"/>
          <frac32.u.map name="gain2" value="20.5"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c_1" x="532" y="200">
+   <obj type="math/*c" name="*c_1" x="532" y="200" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" sha="60143a29e35f452025e9edaa2dec6e660ecb9c6e">
       <params>
          <frac32.u.map name="amp" value="16.5"/>
       </params>
@@ -60,7 +60,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="sawsync~" sha="4e614d245ac924f3f8f7ea02b2a4ba9e84769849" name="sawsync~_1" x="112" y="340">
+   <obj type="osc/saw sync" uuid="c55144faace5cfeddae3b63b3fa345483866d90" sha="4e614d245ac924f3f8f7ea02b2a4ba9e84769849" name="sawsync~_1" x="112" y="340">
       <params>
          <frac32.s.map name="pitch" value="11.0"/>
       </params>

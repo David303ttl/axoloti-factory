@@ -19,13 +19,13 @@
       <attribs/>
       <includes>
          <include>./streamer.h</include>
-         <include>chibios/ext/fatfs/src/ff.h</include>
+         <include>ff.h</include>
       </includes>
       <code.declaration><![CDATA[THD_WORKING_AREA(waThreadSD, 900);
    sdReadFilePingpong *stream;
    int starttrig;
    int stoptrig;]]></code.declaration>
-      <code.init><![CDATA[static sdReadFilePingpong s[attr_poly] __attribute__ ((section (".data")));
+      <code.init><![CDATA[static sdReadFilePingpong s[attr_poly] __attribute__ ((section (".sram3")));
 // unmap from aliased memory for DMA
 stream = (sdReadFilePingpong *)(0x20000000 | (int)&s[parent->polyIndex]);
 stream->pingpong = CLOSED;

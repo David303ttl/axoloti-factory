@@ -85,7 +85,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mux/mux 2" sha="804f2e81d6fe3e310497e5cfa0fec8560435c2ac" name="inmux21" x="574" y="210">
+   <obj type="mux/mux 2" sha="804f2e81d6fe3e310497e5cfa0fec8560435c2ac" name="inmux21" x="574" y="210" uuid="3bcb8a666381ed18b8962eda50b1aa679136f618">
       <params/>
       <attribs/>
    </obj>
@@ -102,7 +102,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix22" x="322" y="490">
+   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix22" x="322" y="490" uuid="682ea5496ded046d981e26b720a6e7f8eca97541">
       <params>
          <frac32.u.map name="gain1" value="63.5"/>
          <frac32.u.map name="gain2" value="44.5"/>
@@ -116,14 +116,14 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix21" x="602" y="490">
+   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix21" x="602" y="490" uuid="682ea5496ded046d981e26b720a6e7f8eca97541">
       <params>
          <frac32.u.map name="gain1" value="9.0"/>
          <frac32.u.map name="gain2" value="14.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+_1" x="42" y="574">
+   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+_1" x="42" y="574" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>

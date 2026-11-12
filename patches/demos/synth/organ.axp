@@ -13,7 +13,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix21" x="98" y="70">
+   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix21" x="98" y="70" uuid="682ea5496ded046d981e26b720a6e7f8eca97541">
       <params>
          <frac32.u.map name="gain1" value="2.5"/>
          <frac32.u.map name="gain2" value="14.0"/>
@@ -104,7 +104,7 @@
             </params>
             <attribs/>
          </obj>
-         <obj type="math/div 4" sha="1b9659261cffe6011ae0ea5a26a8c2029d53828d" name="div_1" x="420" y="28">
+         <obj type="math/div 4" sha="1b9659261cffe6011ae0ea5a26a8c2029d53828d" name="div_1" x="420" y="28" uuid="507955275561b256e540f7205386d31545a2828f">
             <params/>
             <attribs/>
          </obj>
@@ -140,11 +140,11 @@
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="-1" x="350" y="294">
+         <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="-1" x="350" y="294" uuid="3280bb759e9fc189e134300e48dda7e903c9a110">
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/satp" sha="107e97e0797ac54d70617cbd5af301ac85ec58a8" name="satp1" x="420" y="294">
+         <obj type="math/satp" sha="107e97e0797ac54d70617cbd5af301ac85ec58a8" name="satp1" x="420" y="294" uuid="9064bac2c45ccdaa67eb85b03669d145a076bfd3">
             <params/>
             <attribs/>
          </obj>
@@ -321,6 +321,8 @@
    </nets>
    <settings>
       <subpatchmode>no</subpatchmode>
+      <NPresets>4</NPresets>
+      <NPresetEntries>3</NPresetEntries>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

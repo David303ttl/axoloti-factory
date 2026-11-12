@@ -26,7 +26,7 @@
          <combo attributeName="size" selection="256 (5.33ms)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="delread_1" x="546" y="112">
+   <obj type="delay/read" uuid="9323a43569373145e559ad309eaf65a47b14cb54" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="delread_1" x="546" y="112">
       <params>
          <frac32.u.map name="time" value="5.0"/>
       </params>

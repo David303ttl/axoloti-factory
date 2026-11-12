@@ -48,7 +48,7 @@ typedef struct {
 
 #define __INL __attribute__ ((noinline))
 
-static __INL msg_t ThreadSD(void *arg) {
+static __INL void ThreadSD(void *arg) {
   volatile FRESULT err;
   UINT bytes_read;
   while (!chThdShouldTerminateX()) {
@@ -202,7 +202,7 @@ static __INL msg_t ThreadSD(void *arg) {
 //  LogTextMessage("streamer thread : terminated");
 
 
-  return (msg_t)0;
+  return;
 }
 
 __INL void sdOpenStream(sdReadFilePingpong * s, const char *fn) {

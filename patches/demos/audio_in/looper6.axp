@@ -19,7 +19,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_1" x="308" y="0">
+   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_1" x="308" y="0" uuid="13eec32bd8ad57dd0bb18a02566cc0a117d320e3">
       <params>
          <frac32.u.map name="c" value="0.5"/>
       </params>
@@ -58,7 +58,7 @@
          <combo attributeName="size" selection="131072 (2.73s)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_1" x="420" y="84">
+   <obj type="delay/read" uuid="9323a43569373145e559ad309eaf65a47b14cb54" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_1" x="420" y="84">
       <params>
          <frac32.u.map name="time" value="0.0"/>
       </params>
@@ -86,7 +86,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_2" x="308" y="182">
+   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_2" x="308" y="182" uuid="13eec32bd8ad57dd0bb18a02566cc0a117d320e3">
       <params>
          <frac32.u.map name="c" value="0.5"/>
       </params>
@@ -102,7 +102,7 @@
          <combo attributeName="size" selection="131072 (2.73s)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_2" x="420" y="266">
+   <obj type="delay/read" uuid="9323a43569373145e559ad309eaf65a47b14cb54" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_2" x="420" y="266">
       <params>
          <frac32.u.map name="time" value="0.0"/>
       </params>
@@ -130,7 +130,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_3" x="308" y="364">
+   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_3" x="308" y="364" uuid="13eec32bd8ad57dd0bb18a02566cc0a117d320e3">
       <params>
          <frac32.u.map name="c" value="0.5"/>
       </params>
@@ -146,7 +146,7 @@
          <combo attributeName="size" selection="131072 (2.73s)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_3" x="420" y="448">
+   <obj type="delay/read" uuid="9323a43569373145e559ad309eaf65a47b14cb54" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_3" x="420" y="448">
       <params>
          <frac32.u.map name="time" value="0.0"/>
       </params>
@@ -174,7 +174,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_4" x="308" y="546">
+   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_4" x="308" y="546" uuid="13eec32bd8ad57dd0bb18a02566cc0a117d320e3">
       <params>
          <frac32.u.map name="c" value="0.5"/>
       </params>
@@ -190,7 +190,7 @@
          <combo attributeName="size" selection="131072 (2.73s)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_4" x="420" y="630">
+   <obj type="delay/read" uuid="9323a43569373145e559ad309eaf65a47b14cb54" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_4" x="420" y="630">
       <params>
          <frac32.u.map name="time" value="0.0"/>
       </params>
@@ -218,7 +218,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_5" x="308" y="728">
+   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_5" x="308" y="728" uuid="13eec32bd8ad57dd0bb18a02566cc0a117d320e3">
       <params>
          <frac32.u.map name="c" value="0.5"/>
       </params>
@@ -234,7 +234,7 @@
          <combo attributeName="size" selection="131072 (2.73s)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_5" x="420" y="812">
+   <obj type="delay/read" uuid="9323a43569373145e559ad309eaf65a47b14cb54" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_5" x="420" y="812">
       <params>
          <frac32.u.map name="time" value="0.0"/>
       </params>
@@ -262,7 +262,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_6" x="308" y="910">
+   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+1_6" x="308" y="910" uuid="13eec32bd8ad57dd0bb18a02566cc0a117d320e3">
       <params>
          <frac32.u.map name="c" value="0.5"/>
       </params>
@@ -278,7 +278,7 @@
          <combo attributeName="size" selection="131072 (2.73s)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_6" x="420" y="994">
+   <obj type="delay/read" uuid="9323a43569373145e559ad309eaf65a47b14cb54" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_6" x="420" y="994">
       <params>
          <frac32.u.map name="time" value="0.0"/>
       </params>

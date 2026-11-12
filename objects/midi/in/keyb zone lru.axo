@@ -34,7 +34,7 @@ p = 1;
 int j;
 for(j=0;j<attr_endNote-attr_startNote+1;j++) np[j]=0;
 ]]></code.init>
-      <code.krate><![CDATA[outlet_note= _note<<21;
+      <code.krate><![CDATA[outlet_note= (_note * (1 << 21));
 outlet_gate= _gate;
 outlet_gate2= _gate2;
 _gate2 = _gate;

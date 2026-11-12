@@ -995,6 +995,8 @@
    </nets>
    <settings>
       <subpatchmode>no</subpatchmode>
+      <NPresets>4</NPresets>
+      <NPresetEntries>7</NPresetEntries>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

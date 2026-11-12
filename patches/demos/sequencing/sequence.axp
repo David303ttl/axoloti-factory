@@ -115,7 +115,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix1_1" x="490" y="378">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix1_1" x="490" y="378" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="1.0"/>
       </params>
@@ -250,7 +250,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="wave/flashplay" sha="8778a4f763b06a146c0c1c74337ea16dadd2312c" name="flashwaveplay1" x="308" y="854">
+   <obj type="wave/flashplay" uuid="595422aa-8767-45a8-ae08-bd8ac0247c61" name="flashwaveplay1" x="308" y="854">
       <params/>
       <attribs>
          <combo attributeName="sample" selection="808bd"/>
@@ -282,7 +282,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="wave/flashplay" sha="8778a4f763b06a146c0c1c74337ea16dadd2312c" name="flashwaveplay2" x="308" y="910">
+   <obj type="wave/flashplay" uuid="595422aa-8767-45a8-ae08-bd8ac0247c61" name="flashwaveplay2" x="308" y="910">
       <params/>
       <attribs>
          <combo attributeName="sample" selection="808hatclose"/>
@@ -298,7 +298,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="wave/flashplay" sha="8778a4f763b06a146c0c1c74337ea16dadd2312c" name="flashwaveplay3" x="308" y="980">
+   <obj type="wave/flashplay" uuid="595422aa-8767-45a8-ae08-bd8ac0247c61" name="flashwaveplay3" x="308" y="980">
       <params/>
       <attribs>
          <combo attributeName="sample" selection="808snare"/>

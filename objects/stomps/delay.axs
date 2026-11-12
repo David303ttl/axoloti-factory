@@ -21,11 +21,11 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="mux/mux 2" sha="804f2e81d6fe3e310497e5cfa0fec8560435c2ac" name="mux_1" x="126" y="112">
+   <obj type="mux/mux 2" sha="804f2e81d6fe3e310497e5cfa0fec8560435c2ac" name="mux_1" x="126" y="112" uuid="3bcb8a666381ed18b8962eda50b1aa679136f618">
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/xfade" sha="7c7bb910e14c9ba3614f189bb924c86ca0a86890" name="xfade_1" x="196" y="112">
+   <obj type="mix/xfade" sha="7c7bb910e14c9ba3614f189bb924c86ca0a86890" name="xfade_1" x="196" y="112" uuid="375dc91d218e96cdc9cbc7e92adb48f705ef701a">
       <params/>
       <attribs/>
    </obj>
@@ -39,7 +39,7 @@
          <combo attributeName="size" selection="131072 (2.73s)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" uuid="739f69bf3dae8db57f1412d0d15cb37bbae3f4c" name="read_1" x="154" y="266">
+   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" uuid="9323a43569373145e559ad309eaf65a47b14cb54" name="read_1" x="154" y="266">
       <params>
          <frac32.u.map name="time" value="0.0"/>
       </params>

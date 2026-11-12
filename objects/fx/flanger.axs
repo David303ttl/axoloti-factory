@@ -21,11 +21,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1" x="140" y="140">
+   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1" x="140" y="140" uuid="f6f63d71053d572d3c795f83c7ec11dfbbce82dd">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1" x="240" y="140">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1" x="240" y="140" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -41,7 +41,7 @@
          <objref attributeName="delayname" obj="dela"/>
       </attribs>
    </obj>
-   <obj type="mix/xfade" sha="7c7bb910e14c9ba3614f189bb924c86ca0a86890" name="mix" x="520" y="140">
+   <obj type="mix/xfade" sha="7c7bb910e14c9ba3614f189bb924c86ca0a86890" name="mix" x="520" y="140" uuid="375dc91d218e96cdc9cbc7e92adb48f705ef701a">
       <params/>
       <attribs/>
    </obj>
@@ -96,7 +96,7 @@
    </nets>
    <settings>
       <subpatchmode>normal</subpatchmode>
-      <MidiChannel>0</MidiChannel>
+      <MidiChannel>1</MidiChannel>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

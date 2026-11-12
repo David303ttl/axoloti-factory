@@ -16,7 +16,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="soft_1" x="238" y="70">
+   <obj type="math/*" name="soft_1" x="238" y="70" uuid="922423f2db9f222aa3e5ba095778288c446da47a" sha="ec71f518aa0e133062e5a9d4828d3739865c99f">
       <params/>
       <attribs/>
    </obj>

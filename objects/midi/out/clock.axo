@@ -43,7 +43,7 @@
          </combo>
       </attribs>
       <code.declaration><![CDATA[bool _active;
-int32_t _posfrac;
+uint32_t _posfrac;
 int32_t _pos24ppq;
 bool rstp;
 ]]></code.declaration>
@@ -71,8 +71,8 @@ if (inlet_run && !_active) {
   MidiSend1((midi_device_t) attr_device, MIDI_STOP);
 }if (_active) {
   _posfrac += param_bpm;
-  if (_posfrac & 1<<31) {
-    _posfrac &= (1<<31)-1;
+  if (_posfrac & 0x80000000u) {
+    _posfrac &= INT32_MAX;
     _pos24ppq++;
     MidiSend1((midi_device_t) attr_device,MIDI_TIMING_CLOCK);
   }

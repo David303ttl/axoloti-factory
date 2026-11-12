@@ -13,7 +13,7 @@
       <attribs>
          <table name="str"/>
       </attribs>
-      <code.declaration><![CDATA[char c[64];
+      <code.declaration><![CDATA[char c[sizeof("attr_str")];
 ]]></code.declaration>
       <code.init><![CDATA[strcpy(&c[0],"attr_str");
 ]]></code.init>

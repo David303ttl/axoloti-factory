@@ -83,9 +83,7 @@ http://mutable-instruments.com</sDescription>
             </CEntries>
          </combo>
       </attribs>
-      <includes>
-         <include>axoloti_mi.h</include>
-      </includes>
+      <includes/>
       <code.declaration><![CDATA[clouds::GranularProcessor processor;
 bool ltrig = false;
 
@@ -163,8 +161,8 @@ processor.Prepare();
 processor.Process(input,output,BUFSIZE);
 
 for(i=0;i<BUFSIZE;i++){
-   outlet_l[i] = output[i].l << 17;
-   outlet_r[i] = output[i].r << 17;
+   outlet_l[i] = static_cast<int32_t>(static_cast<uint32_t>(static_cast<int32_t>(output[i].l)) << 17);
+   outlet_r[i] = static_cast<int32_t>(static_cast<uint32_t>(static_cast<int32_t>(output[i].r)) << 17);
 }]]></code.krate>
    </obj.normal>
 </objdefs>

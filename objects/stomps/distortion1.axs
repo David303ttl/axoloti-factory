@@ -3,7 +3,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/gain" sha="60c5fcc3503670dd02f8989bba108d80be59b518" name="gain" x="84" y="14">
+   <obj type="math/gain" sha="60c5fcc3503670dd02f8989bba108d80be59b518" name="gain" x="84" y="14" uuid="62b1c1a6337c7c8f6aec96408a432477b113cfa0">
       <params>
          <frac32.u.map name="amp" onParent="true" value="12.0"/>
       </params>
@@ -15,7 +15,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="3ade427ae7291fdf62058c4243fe718758187105" name="level" x="294" y="14">
+   <obj type="math/*c" sha="3ade427ae7291fdf62058c4243fe718758187105" name="level" x="294" y="14" uuid="7a66f52a9594e7e9eb31328ea725cb3641a80b55">
       <params>
          <frac32.u.map name="amp" onParent="true" value="14.0"/>
       </params>

@@ -5,7 +5,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/div 16" sha="de53fa1ae8551aca115c5ab76dd646a20339668" name="div16_1" x="300" y="20">
+   <obj type="math/div 16" sha="de53fa1ae8551aca115c5ab76dd646a20339668" name="div16_1" x="300" y="20" uuid="19cf8d3358046cb69c1139e51a3e1555742492e0">
       <params/>
       <attribs/>
    </obj>
@@ -13,13 +13,13 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="lfop" x="180" y="120">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="lfop" x="180" y="120" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="1.5"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="bendrange" x="280" y="120">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="bendrange" x="280" y="120" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="12.0"/>
       </params>
@@ -43,13 +43,13 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="ftrack" x="620" y="120">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="ftrack" x="620" y="120" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" onParent="true" value="18.5"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="lfof" x="720" y="120">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="lfof" x="720" y="120" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" onParent="true" value="0.5"/>
       </params>

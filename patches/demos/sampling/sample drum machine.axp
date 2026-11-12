@@ -227,6 +227,8 @@
    </nets>
    <settings>
       <subpatchmode>no</subpatchmode>
+      <NPresets>2</NPresets>
+      <NPresetEntries>6</NPresetEntries>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

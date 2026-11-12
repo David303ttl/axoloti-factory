@@ -29,7 +29,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="amt" x="210" y="98">
+   <obj type="math/*c" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="amt" x="210" y="98">
       <params>
          <frac32.u.map name="amp" onParent="true" value="63.5"/>
       </params>

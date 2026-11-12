@@ -6,7 +6,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_2" x="112" y="98">
+   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_2" x="112" y="98" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="25.0"/>
       </params>
@@ -24,7 +24,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_3" x="112" y="224">
+   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_3" x="112" y="224" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="24.5"/>
       </params>

@@ -52,7 +52,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="mux/mux 3" sha="fc8f2c6ad01932819793f6293cfa98005b2b6261" name="inmux31" x="462" y="420">
+   <obj type="mux/mux 3" sha="fc8f2c6ad01932819793f6293cfa98005b2b6261" name="inmux31" x="462" y="420" uuid="9340a203d87e774443faa0d744b56e0967b23125">
       <params/>
       <attribs/>
    </obj>

@@ -183,7 +183,7 @@
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/window" sha="ff29ab0721db1b1238076400832e919d860fc38f" name="window_1" x="336" y="252">
+         <obj type="math/window" sha="ff29ab0721db1b1238076400832e919d860fc38f" name="window_1" x="336" y="252" uuid="276ef1bfd2978430dd94074347265b17092b6311">
             <params/>
             <attribs/>
          </obj>
@@ -265,7 +265,7 @@
                <objref attributeName="table" obj="../t"/>
             </attribs>
          </obj>
-         <obj type="math/window" sha="ff29ab0721db1b1238076400832e919d860fc38f" name="window_2" x="350" y="560">
+         <obj type="math/window" sha="ff29ab0721db1b1238076400832e919d860fc38f" name="window_2" x="350" y="560" uuid="276ef1bfd2978430dd94074347265b17092b6311">
             <params/>
             <attribs/>
          </obj>
@@ -357,52 +357,6 @@
                <source obj="in" outlet="inlet"/>
                <dest obj="vca~_3" inlet="a"/>
                <dest obj="vca~_5" inlet="a"/>
-            </net>
-            <net>
-               <source obj="+_1" outlet="out"/>
-               <dest obj="tabrecord2~_1" inlet="wave"/>
-            </net>
-            <net>
-               <source obj="vca~_3" outlet="o"/>
-               <dest obj="+_1" inlet="in2"/>
-            </net>
-            <net>
-               <source obj="length" outlet="env"/>
-               <dest obj="window_1" inlet="phase"/>
-            </net>
-            <net>
-               <source obj="inv_1" outlet="o"/>
-               <dest obj="length" inlet="trig"/>
-               <dest obj="randtrig_1" inlet="trig"/>
-            </net>
-            <net>
-               <source obj="play_1" outlet="wave"/>
-               <dest obj="vca~_1" inlet="a"/>
-               <dest obj="vca~_2" inlet="a"/>
-            </net>
-            <net>
-               <source obj="vca~_1" outlet="o"/>
-               <dest obj="L" inlet="outlet"/>
-            </net>
-            <net>
-               <source obj="c_1" outlet="o"/>
-               <dest obj="to_1" inlet="i"/>
-            </net>
-            <net>
-               <source obj="to_1" outlet="o"/>
-               <dest obj="-_1" inlet="in1"/>
-            </net>
-            <net>
-               <source obj="-_1" outlet="out"/>
-               <dest obj="vca~_2" inlet="v"/>
-            </net>
-            <net>
-               <source obj="vca~_2" outlet="o"/>
-               <dest obj="+_1" inlet="in1"/>
-            </net>
-            <net>
-               <source obj="in" outlet="inlet"/>
-               <dest obj="vca~_3" inlet="a"/>
             </net>
             <net>
                <source obj="+_1" outlet="out"/>
@@ -529,10 +483,6 @@
                <dest obj="+_4" inlet="in1"/>
             </net>
             <net>
-               <source obj="*_5" outlet="result"/>
-               <dest obj="+_3" inlet="in2"/>
-            </net>
-            <net>
                <source obj="*_6" outlet="result"/>
                <dest obj="+_4" inlet="in2"/>
             </net>
@@ -640,6 +590,8 @@
    </nets>
    <settings>
       <subpatchmode>no</subpatchmode>
+      <NPresets>3</NPresets>
+      <NPresetEntries>9</NPresetEntries>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

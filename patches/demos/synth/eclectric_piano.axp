@@ -27,21 +27,21 @@
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="velo" x="140" y="0">
+         <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="velo" x="140" y="0" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
             <params>
                <frac32.u.map name="amp" value="48.0"/>
             </params>
             <attribs/>
          </obj>
-         <obj type="math/satp" sha="107e97e0797ac54d70617cbd5af301ac85ec58a8" name="satp1" x="224" y="0">
+         <obj type="math/satp" sha="107e97e0797ac54d70617cbd5af301ac85ec58a8" name="satp1" x="224" y="0" uuid="9064bac2c45ccdaa67eb85b03669d145a076bfd3">
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="294" y="0">
+         <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="294" y="0" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
             <params/>
             <attribs/>
          </obj>
-         <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="q" x="350" y="0">
+         <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="q" x="350" y="0" uuid="682ea5496ded046d981e26b720a6e7f8eca97541">
             <params>
                <frac32.u.map name="gain1" onParent="true" value="1.0"/>
                <frac32.u.map name="gain2" onParent="true" value="0.024999618530273438"/>
@@ -67,11 +67,11 @@
                <combo attributeName="polynomial" selection="0x286"/>
             </attribs>
          </obj>
-         <obj type="math/div 2" sha="7fee48a2d38604fd5504303cbccef61f687d1593" name="div1281" x="224" y="140">
+         <obj type="math/div 2" sha="7fee48a2d38604fd5504303cbccef61f687d1593" name="div1281" x="224" y="140" uuid="f14884de1baf3e615e12ee162a96a013eca76789">
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="*1" x="294" y="140">
+         <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="*1" x="294" y="140" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
             <params/>
             <attribs/>
          </obj>

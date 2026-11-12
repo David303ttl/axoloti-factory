@@ -18,17 +18,17 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/-c" sha="7e5ae2d57dd806e6c238ad9acbb5efbd70dc7d10" name="-c1" x="440" y="20">
+   <obj type="math/-c" name="-c1" x="440" y="20" uuid="bc70bed87e5405985ade03f4806b9450609a9093" sha="13ae165692448bd5e8159b2e283e45005ef14cdf">
       <params>
          <frac32.u.map name="c" value="14.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/satp" sha="107e97e0797ac54d70617cbd5af301ac85ec58a8" name="satp1" x="560" y="20">
+   <obj type="math/satp" name="satp1" x="560" y="20" uuid="9064bac2c45ccdaa67eb85b03669d145a076bfd3" sha="18567e6273ff2e8a09e0dc6dcfab1a22c37cdff6">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/muls 8" sha="1c3ca25981e9ffc6a3a7f89b528588c32ad352f4" name="muls41" x="640" y="20">
+   <obj type="math/muls 8" name="muls41" x="640" y="20" uuid="7f2a47c7405168a6d330c0ec6091b1ec1e7c7840" sha="b8843476a1c719c1d3e849ff867276db1665ec8d">
       <params/>
       <attribs/>
    </obj>
@@ -57,7 +57,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 3" sha="46333aae0436e1e8686389008afe56eee4288a54" name="*c2" x="720" y="120">
+   <obj type="mix/mix 3" name="*c2" x="720" y="120" uuid="7d947bff9b8466d81c2ddd49b4a7fb702302e05c" sha="a804e0d8b9cf55e3838add2c3147dd1f0f2f99d6">
       <params>
          <frac32.u.map name="gain1" value="4.5"/>
          <frac32.u.map name="gain2" value="8.0"/>
@@ -71,11 +71,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/div 32" sha="41545586fbaebf68c4240a279a5619af09b5c1a1" name="div321" x="320" y="200">
+   <obj type="math/div 32" name="div321" x="320" y="200" uuid="40e43d0d284fded6b6cfadd45a5cb69c8d713691" sha="33fad2a22c3831e3a91cb48ab2fbaa4677fab4ed">
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 3" sha="46333aae0436e1e8686389008afe56eee4288a54" name="mix11" x="40" y="260">
+   <obj type="mix/mix 3" name="mix11" x="40" y="260" uuid="7d947bff9b8466d81c2ddd49b4a7fb702302e05c" sha="a804e0d8b9cf55e3838add2c3147dd1f0f2f99d6">
       <params>
          <frac32.u.map name="gain1" value="1.0"/>
          <frac32.u.map name="gain2" value="0.14999961853027344"/>
@@ -89,7 +89,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="67c325bf12e5b73ad58df89daf7899831777003c" name="mix21" x="360" y="280">
+   <obj type="mix/mix 2" name="mix21" x="360" y="280" uuid="30c04239c88e09d3fa5c333b784ecf54f1b0e268" sha="f5582f4fce1b25a668f1f5dead41cccf09e4e7be">
       <params>
          <frac32.u.map name="gain1" value="40.0"/>
          <frac32.u.map name="gain2" value="1.5541162490844727"/>

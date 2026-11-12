@@ -42,15 +42,15 @@
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/div 64" sha="23bcd526229a9199a165fe7a57c62168cb21de0d" name="div_1" x="252" y="294">
+         <obj type="math/div 64" sha="23bcd526229a9199a165fe7a57c62168cb21de0d" name="div_1" x="252" y="294" uuid="da82c8ea54e956811f1d7264d921628e3301971e">
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/div 128" sha="a04562d4c5dad7454500fb8bc6383a802aef8f25" name="div_2" x="336" y="294">
+         <obj type="math/div 128" sha="a04562d4c5dad7454500fb8bc6383a802aef8f25" name="div_2" x="336" y="294" uuid="7e534ce0f62b1fddbad78a797d8c10c8d1a0b812">
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+_1" x="434" y="294">
+         <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+_1" x="434" y="294" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
             <params/>
             <attribs/>
          </obj>

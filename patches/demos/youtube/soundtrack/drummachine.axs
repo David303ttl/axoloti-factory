@@ -25,13 +25,13 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="env/d lin m x" sha="7cd630c1ecdc64542bf24aadc0f3114629fdf37d" name="env.envdlinmx_1" x="210" y="98">
+   <obj type="env/d lin m" uuid="e9d9a5152981b17626748fd93e7e6a39c0afe3aa" sha="7cd630c1ecdc64542bf24aadc0f3114629fdf37d" name="env.envdlinmx_1" x="210" y="98">
       <params>
          <frac32.s.map name="d" onParent="true" value="-13.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="arithmetic.*c_2" x="308" y="98">
+   <obj type="math/*c" name="arithmetic.*c_2" x="308" y="98" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" sha="60143a29e35f452025e9edaa2dec6e660ecb9c6e">
       <params>
          <frac32.u.map name="amp" onParent="true" value="24.5"/>
       </params>
@@ -69,11 +69,11 @@
          <spinner attributeName="note" value="62"/>
       </attribs>
    </obj>
-   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="-_1" x="126" y="322">
+   <obj type="math/-" name="-_1" x="126" y="322" uuid="3280bb759e9fc189e134300e48dda7e903c9a110" sha="50b9299d5a370749aa9d6cfdb949bf3191a1f68">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/div 2" sha="7fee48a2d38604fd5504303cbccef61f687d1593" name="div_1" x="210" y="336">
+   <obj type="math/div 2" name="div_1" x="210" y="336" uuid="f14884de1baf3e615e12ee162a96a013eca76789" sha="2cb2778f41e0d462d7aed59480280459b497b573">
       <params/>
       <attribs/>
    </obj>

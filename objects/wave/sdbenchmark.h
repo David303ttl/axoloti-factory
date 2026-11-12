@@ -1,5 +1,4 @@
-#include "../chibios/ext/fatfs/src/ff.h"
-#include "../chibios/os/various/chprintf.c"
+#include "ff.h"
 
 #define SDREADFILEPINGPONGSIZE 2048
 typedef struct {
@@ -121,7 +120,7 @@ void BenchmarkBS(int bufsize, int nstreams){
   LogTextMessage("read BW : %i kB/s\r\n",(nstreams*nbuf*bufsize)/(t5-t4));
 }
 
-static msg_t ThreadBenchmarkSD(void *arg) {
+static void ThreadBenchmarkSD(void *arg) {
   LogTextMessage("Starting sdcard benchmark. Wait...");
   BenchmarkBS(SDREADFILEPINGPONGSIZE * 4, 1);
   BenchmarkBS(SDREADFILEPINGPONGSIZE * 4, 2);

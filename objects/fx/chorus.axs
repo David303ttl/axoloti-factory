@@ -21,11 +21,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1" x="266" y="140">
+   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1" x="266" y="140" uuid="f6f63d71053d572d3c795f83c7ec11dfbbce82dd">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1" x="406" y="140">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1" x="406" y="140" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -45,15 +45,15 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="196" y="196">
+   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="196" y="196" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
       <params/>
       <attribs/>
    </obj>
-   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1_" x="266" y="196">
+   <obj type="conv/bipolar2unipolar" sha="b80b299df9cb5523b1c4c0c7fe09941a1c682112" name="bipolar2unipolar1_" x="266" y="196" uuid="f6f63d71053d572d3c795f83c7ec11dfbbce82dd">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1_" x="406" y="196">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="vca_1_" x="406" y="196" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>

@@ -25,11 +25,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="266" y="28">
+   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1" x="266" y="28" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c3_" x="364" y="28">
+   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c3_" x="364" y="28" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="35.0"/>
       </params>
@@ -42,13 +42,13 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c3__" x="266" y="70">
+   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c3__" x="266" y="70" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="16.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1_" x="364" y="112">
+   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv1_" x="364" y="112" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
       <params/>
       <attribs/>
    </obj>
@@ -58,7 +58,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="*c2_" x="742" y="112">
+   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="*c2_" x="742" y="112" uuid="682ea5496ded046d981e26b720a6e7f8eca97541">
       <params>
          <frac32.u.map name="gain1" value="16.5"/>
          <frac32.u.map name="gain2" value="8.0"/>
@@ -71,11 +71,11 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/div 32" sha="41545586fbaebf68c4240a279a5619af09b5c1a1" name="div321" x="378" y="210">
+   <obj type="math/div 32" sha="41545586fbaebf68c4240a279a5619af09b5c1a1" name="div321" x="378" y="210" uuid="40e43d0d284fded6b6cfadd45a5cb69c8d713691">
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="lfo_pitch_amt" x="280" y="252">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="lfo_pitch_amt" x="280" y="252" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" onParent="true" value="4.0"/>
       </params>

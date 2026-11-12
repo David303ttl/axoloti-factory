@@ -26,7 +26,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="osc/tri" sha="e7066d3dcd0e52be1613be8b5ccc96acee0ed064" uuid="b7510b296fd8f1dad5e317c620b496e1a99c08d6" name="tri_1" x="182" y="280">
+   <obj type="osc/tri" sha="e7066d3dcd0e52be1613be8b5ccc96acee0ed064" uuid="905879afa8256b0ca207557d656949e476ca6f16" name="tri_1" x="182" y="280">
       <params>
          <frac32.s.map name="pitch" value="0.0"/>
       </params>

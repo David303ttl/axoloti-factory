@@ -9,7 +9,7 @@
          <combo attributeName="time" selection="5.3ms"/>
       </attribs>
    </obj>
-   <obj type="math/muls 2" sha="66864ec326f7bc31d57563047135e75259b46642" name="muls_3" x="224" y="28">
+   <obj type="math/muls 2" name="muls_3" x="224" y="28" uuid="e6a3d49dd255fdecb3dca9c7fa75b9a95ecfd7fd" sha="80cfb27beb277f1fc97006ab68f5129daeb7448a">
       <params/>
       <attribs/>
    </obj>
@@ -72,7 +72,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c_1" x="504" y="126">
+   <obj type="math/*c" name="*c_1" x="504" y="126" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" sha="60143a29e35f452025e9edaa2dec6e660ecb9c6e">
       <params>
          <frac32.u.map name="amp" value="9.0"/>
       </params>
@@ -104,7 +104,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2 g" sha="f14eeeeb6df032a7e072e970956c20613eb267f1" name="mix_2" x="938" y="266">
+   <obj type="mix/mix 2 g" name="mix_2" x="938" y="266" uuid="221f038da51943034a75e442c90624fcebfe6112" sha="921aefdda41b92a27cc93c53b5154554d0ce6d3b">
       <params>
          <frac32.u.map name="gain1" value="63.5"/>
          <frac32.u.map name="gain2" value="20.0"/>
@@ -119,7 +119,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2 g" sha="f14eeeeb6df032a7e072e970956c20613eb267f1" name="mix_4" x="938" y="406">
+   <obj type="mix/mix 2 g" name="mix_4" x="938" y="406" uuid="221f038da51943034a75e442c90624fcebfe6112" sha="921aefdda41b92a27cc93c53b5154554d0ce6d3b">
       <params>
          <frac32.u.map name="gain1" value="63.5"/>
          <frac32.u.map name="gain2" value="20.0"/>
@@ -256,6 +256,8 @@
    </nets>
    <settings>
       <subpatchmode>no</subpatchmode>
+      <NModulationSources>1</NModulationSources>
+      <NModulationTargetsPerSource>1</NModulationTargetsPerSource>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

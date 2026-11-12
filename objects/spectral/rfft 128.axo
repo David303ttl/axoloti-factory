@@ -65,7 +65,7 @@ msg_t ThreadX2(){
         }
       }
 }
-static msg_t ThreadX(void *arg) {
+static void ThreadX(void *arg) {
 ((attr_parent *)arg)->ThreadX2();
 }
 THD_WORKING_AREA(waThreadX, 4096);

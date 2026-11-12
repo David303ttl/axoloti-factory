@@ -9,7 +9,7 @@
          <combo attributeName="poly" selection="8"/>
       </attribs>
       <subpatch appVersion="1.0.10">
-         <obj type="math/div 16" sha="de53fa1ae8551aca115c5ab76dd646a20339668" name="div_1" x="504" y="42">
+         <obj type="math/div 16" sha="de53fa1ae8551aca115c5ab76dd646a20339668" name="div_1" x="504" y="42" uuid="19cf8d3358046cb69c1139e51a3e1555742492e0">
             <params/>
             <attribs/>
          </obj>
@@ -19,7 +19,7 @@
             </params>
             <attribs/>
          </obj>
-         <obj type="env/d lin m" sha="7cd630c1ecdc64542bf24aadc0f3114629fdf37d" uuid="4b3d3642bf931c1d20cbcbaa3b9d538e7cd861fa" name="decay time" x="770" y="98">
+         <obj type="env/d lin m" sha="7cd630c1ecdc64542bf24aadc0f3114629fdf37d" uuid="e9d9a5152981b17626748fd93e7e6a39c0afe3aa" name="decay time" x="770" y="98">
             <params>
                <frac32.s.map name="d" onParent="true" value="-42.0"/>
             </params>
@@ -29,7 +29,7 @@
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv_1" x="518" y="210">
+         <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv_1" x="518" y="210" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
             <params/>
             <attribs/>
          </obj>
@@ -39,7 +39,7 @@
             </params>
             <attribs/>
          </obj>
-         <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="*_1" x="952" y="238">
+         <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="*_1" x="952" y="238" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
             <params/>
             <attribs/>
          </obj>
@@ -64,11 +64,11 @@
             </params>
             <attribs/>
          </obj>
-         <obj type="math/div 2" sha="7fee48a2d38604fd5504303cbccef61f687d1593" name="div_3" x="574" y="462">
+         <obj type="math/div 2" sha="7fee48a2d38604fd5504303cbccef61f687d1593" name="div_3" x="574" y="462" uuid="f14884de1baf3e615e12ee162a96a013eca76789">
             <params/>
             <attribs/>
          </obj>
-         <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+_1" x="644" y="462">
+         <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+_1" x="644" y="462" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
             <params/>
             <attribs/>
          </obj>

@@ -13,19 +13,19 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/+" sha="f21fcf9a2511404a296065f4ba87ab840e153161" name="+_1" x="126" y="84">
+   <obj type="math/+" sha="f21fcf9a2511404a296065f4ba87ab840e153161" name="+_1" x="126" y="84" uuid="faedbea4612d9bd3644d6d3bf31946d848a70e19">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/div 2" sha="5df68ad33aa1633cb7cb1724fcd41eee28932582" name="div_1" x="210" y="84">
+   <obj type="math/div 2" sha="5df68ad33aa1633cb7cb1724fcd41eee28932582" name="div_1" x="210" y="84" uuid="ad1e413d83e5edce017e3e9a4f30d86035cf637">
       <params/>
       <attribs/>
    </obj>
-   <obj type="mux/mux 2" sha="c6b90f8c9bc3d2f8632ce90fca7a738c7153eb2f" name="mux_1" x="308" y="84">
+   <obj type="mux/mux 2" sha="c6b90f8c9bc3d2f8632ce90fca7a738c7153eb2f" name="mux_1" x="308" y="84" uuid="539c246f4c360ac476e128cfbfa84348fb7f7e73">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="3ade427ae7291fdf62058c4243fe718758187105" name="amt" x="434" y="84">
+   <obj type="math/*c" sha="3ade427ae7291fdf62058c4243fe718758187105" name="amt" x="434" y="84" uuid="7a66f52a9594e7e9eb31328ea725cb3641a80b55">
       <params>
          <frac32.u.map name="amp" onParent="true" value="17.5"/>
       </params>
@@ -37,7 +37,7 @@
          <combo attributeName="size" selection="2048 (42.66ms)"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_1" x="140" y="224">
+   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_1" x="140" y="224" uuid="9323a43569373145e559ad309eaf65a47b14cb54">
       <params>
          <frac32.u.map name="time" value="14.0"/>
       </params>
@@ -45,7 +45,7 @@
          <objref attributeName="delayname" obj="d1"/>
       </attribs>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_2" x="140" y="322">
+   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_2" x="140" y="322" uuid="9323a43569373145e559ad309eaf65a47b14cb54">
       <params>
          <frac32.u.map name="time" value="21.5"/>
       </params>
@@ -53,11 +53,11 @@
          <objref attributeName="delayname" obj="d1"/>
       </attribs>
    </obj>
-   <obj type="math/inv" sha="dd3d98b9ec6f2b9231cb1d00d0f9667152537120" name="inv_1" x="294" y="322">
+   <obj type="math/inv" sha="dd3d98b9ec6f2b9231cb1d00d0f9667152537120" name="inv_1" x="294" y="322" uuid="7f4c6cf4dcf79f9b0aa81c2eaf540405875714a3">
       <params/>
       <attribs/>
    </obj>
-   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_3" x="140" y="420">
+   <obj type="delay/read" sha="5fca22dde504617cc3aec49fd5fcc1d7296290ca" name="read_3" x="140" y="420" uuid="9323a43569373145e559ad309eaf65a47b14cb54">
       <params>
          <frac32.u.map name="time" value="31.5"/>
       </params>
@@ -65,7 +65,7 @@
          <objref attributeName="delayname" obj="d1"/>
       </attribs>
    </obj>
-   <obj type="mix/mix 3 g" sha="358c7ade2f67c53110afef97162e206e54c7edbb" name="mix_1" x="364" y="420">
+   <obj type="mix/mix 3 g" sha="358c7ade2f67c53110afef97162e206e54c7edbb" name="mix_1" x="364" y="420" uuid="efc0bdb8ca0ec2184330951eff5203ff487e35a9">
       <params>
          <frac32.u.map name="gain1" value="34.5"/>
          <frac32.u.map name="gain2" value="33.0"/>
@@ -84,7 +84,7 @@
          <spinner attributeName="d4" value="1289"/>
       </attribs>
    </obj>
-   <obj type="math/+" sha="f21fcf9a2511404a296065f4ba87ab840e153161" name="+_2" x="700" y="420">
+   <obj type="math/+" sha="f21fcf9a2511404a296065f4ba87ab840e153161" name="+_2" x="700" y="420" uuid="faedbea4612d9bd3644d6d3bf31946d848a70e19">
       <params/>
       <attribs/>
    </obj>
@@ -92,7 +92,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/+" sha="f21fcf9a2511404a296065f4ba87ab840e153161" name="+_3" x="700" y="476">
+   <obj type="math/+" sha="f21fcf9a2511404a296065f4ba87ab840e153161" name="+_3" x="700" y="476" uuid="faedbea4612d9bd3644d6d3bf31946d848a70e19">
       <params/>
       <attribs/>
    </obj>

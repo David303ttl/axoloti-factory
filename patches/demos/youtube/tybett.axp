@@ -74,7 +74,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="logic/latch" sha="b781d1a002c7417144159fa9f6f2c56740b9e3cb" name="latch_1" x="784" y="168">
+   <obj type="logic/latch" sha="b781d1a002c7417144159fa9f6f2c56740b9e3cb" name="latch_1" x="784" y="168" uuid="14750683752bd43205826430adb7168dae3cc2c">
       <params/>
       <attribs/>
    </obj>
@@ -84,13 +84,13 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix_4" x="952" y="168">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix_4" x="952" y="168" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="3.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="mix/mix 2 g" sha="6305d27c723353f0d434c0ab30735c5dd11b7670" name="mix_5" x="588" y="252">
+   <obj type="mix/mix 2 g" sha="6305d27c723353f0d434c0ab30735c5dd11b7670" name="mix_5" x="588" y="252" uuid="a68d65dda222bc916b36b283cc06d2edd719bf3b">
       <params>
          <frac32.u.map name="gain1" value="34.5"/>
          <frac32.u.map name="gain2" value="2.5"/>

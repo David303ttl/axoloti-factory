@@ -17,19 +17,19 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="three" x="280" y="168">
+   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="three" x="280" y="168" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="four" x="364" y="168">
+   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="four" x="364" y="168" uuid="3280bb759e9fc189e134300e48dda7e903c9a110">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="six" x="364" y="322">
+   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="six" x="364" y="322" uuid="3280bb759e9fc189e134300e48dda7e903c9a110">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="seven" x="280" y="336">
+   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="seven" x="280" y="336" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>

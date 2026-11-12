@@ -17,19 +17,19 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="-_1" x="280" y="60">
+   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="-_1" x="280" y="60" uuid="3280bb759e9fc189e134300e48dda7e903c9a110">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/reciprocal" sha="fee3b32001d8cc8788bdd6d14bd4ad5f04187030" name="reciprocal_1" x="360" y="60">
+   <obj type="math/reciprocal" sha="fee3b32001d8cc8788bdd6d14bd4ad5f04187030" name="reciprocal_1" x="360" y="60" uuid="439f340c2da8a031b6d48ed82626b4fbaaa05774">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/muls 32" sha="b4fd2fdd11900fcc7b7695c7c9984890d6aefa4a" name="muls32_1" x="420" y="60">
+   <obj type="math/muls 32" sha="b4fd2fdd11900fcc7b7695c7c9984890d6aefa4a" name="muls32_1" x="420" y="60" uuid="1fa8aa6bacdd3d663273740e0c09c7e37c370df7">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="*_1" x="480" y="60">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="*_1" x="480" y="60" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -47,19 +47,19 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="-_2" x="280" y="200">
+   <obj type="math/-" sha="27008b61438fd41bbc9a021b13c5eaad1cc101b5" name="-_2" x="280" y="200" uuid="3280bb759e9fc189e134300e48dda7e903c9a110">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/reciprocal" sha="fee3b32001d8cc8788bdd6d14bd4ad5f04187030" name="reciprocal_2" x="360" y="200">
+   <obj type="math/reciprocal" sha="fee3b32001d8cc8788bdd6d14bd4ad5f04187030" name="reciprocal_2" x="360" y="200" uuid="439f340c2da8a031b6d48ed82626b4fbaaa05774">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/muls 32" sha="b4fd2fdd11900fcc7b7695c7c9984890d6aefa4a" name="muls32_2" x="420" y="200">
+   <obj type="math/muls 32" sha="b4fd2fdd11900fcc7b7695c7c9984890d6aefa4a" name="muls32_2" x="420" y="200" uuid="1fa8aa6bacdd3d663273740e0c09c7e37c370df7">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="*_2" x="480" y="200">
+   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="*_2" x="480" y="200" uuid="922423f2db9f222aa3e5ba095778288c446da47a">
       <params/>
       <attribs/>
    </obj>
@@ -67,7 +67,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+_1" x="60" y="340">
+   <obj type="math/+" sha="81c2c147faf13ae4c2d00419326d0b6aec478b27" name="+_1" x="60" y="340" uuid="44553fdc8628c67ab535845ed1be304ad6c9553b">
       <params/>
       <attribs/>
    </obj>
@@ -75,27 +75,27 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="logic/samplehold" sha="332c0a95e3f565a482d970d66b76153dae8d7d92" name="samplehold_1" x="520" y="340">
+   <obj type="logic/samplehold" sha="332c0a95e3f565a482d970d66b76153dae8d7d92" name="samplehold_1" x="520" y="340" uuid="55479a62c4ed7e3536b6e6f339ce05a802a81b9d">
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv_3" x="620" y="340">
+   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv_3" x="620" y="340" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix1_2" x="680" y="340">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix1_2" x="680" y="340" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="40.5"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/-c" sha="7e5ae2d57dd806e6c238ad9acbb5efbd70dc7d10" name="-c_1" x="220" y="360">
+   <obj type="math/-c" sha="7e5ae2d57dd806e6c238ad9acbb5efbd70dc7d10" name="-c_1" x="220" y="360" uuid="bc70bed87e5405985ade03f4806b9450609a9093">
       <params>
          <frac32.u.map name="c" value="42.0"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv_1" x="280" y="360">
+   <obj type="math/inv" sha="7b02dcb8eae6c8e1f4f1f9f532ad6cd7f0d9a69" name="inv_1" x="280" y="360" uuid="565521d3699b36d8095aa1c79b9ad0046fb133ce">
       <params/>
       <attribs/>
    </obj>
@@ -111,13 +111,13 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="math/-c" sha="7e5ae2d57dd806e6c238ad9acbb5efbd70dc7d10" name="-c_2" x="280" y="440">
+   <obj type="math/-c" sha="7e5ae2d57dd806e6c238ad9acbb5efbd70dc7d10" name="-c_2" x="280" y="440" uuid="bc70bed87e5405985ade03f4806b9450609a9093">
       <params>
          <frac32.u.map name="c" value="5.5"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c_2" x="420" y="440">
+   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c_2" x="420" y="440" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="30.0"/>
       </params>
@@ -129,13 +129,13 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c_3" x="600" y="440">
+   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c_3" x="600" y="440" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="30.5"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/satp" sha="107e97e0797ac54d70617cbd5af301ac85ec58a8" name="satp_1" x="340" y="520">
+   <obj type="math/satp" sha="107e97e0797ac54d70617cbd5af301ac85ec58a8" name="satp_1" x="340" y="520" uuid="9064bac2c45ccdaa67eb85b03669d145a076bfd3">
       <params/>
       <attribs/>
    </obj>
@@ -190,7 +190,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix1_1" x="520" y="600">
+   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix1_1" x="520" y="600" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa">
       <params>
          <frac32.u.map name="gain1" value="35.69999980926514"/>
       </params>

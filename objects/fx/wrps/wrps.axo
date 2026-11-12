@@ -26,9 +26,7 @@ BUG: this will not currently link, due to axo firmware issue
          <frac32.u.map name="density"/>
       </params>
       <attribs/>
-      <includes>
-         <include>axoloti_mi.h</include>
-      </includes>
+      <includes/>
       <code.declaration><![CDATA[warps::Modulator processor;]]></code.declaration>
       <code.init><![CDATA[processor.Init(48000.0f); //MI = 96k]]></code.init>
       <code.krate><![CDATA[static warps::ShortFrame input[BUFSIZE];
@@ -37,7 +35,7 @@ static warps::ShortFrame output[BUFSIZE];
 int i;
 
 processor.mutable_parameters()->channel_drive[0]=q27_to_float(param_drive1);
-processor.mutable_parameters()->channel_drive[1]=q27_to_float(param_drive1);
+processor.mutable_parameters()->channel_drive[1]=q27_to_float(param_drive2);
 processor.mutable_parameters()->modulation_parameter=q27_to_float(param_density);
 processor.mutable_parameters()->modulation_algorithm=q27_to_float(param_algo);
 
@@ -50,8 +48,8 @@ for(i=0;i<BUFSIZE;i++){
 processor.Process(input,output,BUFSIZE);
 
 for(i=0;i<BUFSIZE;i++){
-   outlet_out[i] = output[i].l << 17;
-   outlet_aux[i] = output[i].r << 17;
+   outlet_out[i] = static_cast<int32_t>(static_cast<uint32_t>(static_cast<int32_t>(output[i].l)) << 17);
+   outlet_aux[i] = static_cast<int32_t>(static_cast<uint32_t>(static_cast<int32_t>(output[i].r)) << 17);
 }]]></code.krate>
    </obj.normal>
 </objdefs>

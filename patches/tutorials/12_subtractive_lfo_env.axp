@@ -18,7 +18,7 @@
       <attribs/>
    </obj>
    <comment type="patch/comment" x="224" y="168" text="pitch LFO"/>
-   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix11" x="336" y="168">
+   <obj type="mix/mix 2" sha="90ac1a48634cb998bf3d0387eb5191531d6241fe" name="mix11" x="336" y="168" uuid="682ea5496ded046d981e26b720a6e7f8eca97541">
       <params>
          <frac32.u.map name="gain1" value="8.5"/>
          <frac32.u.map name="gain2" value="0.5"/>
@@ -40,7 +40,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c2" x="140" y="364">
+   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="*c2" x="140" y="364" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="17.0"/>
       </params>

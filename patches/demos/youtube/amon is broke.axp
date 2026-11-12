@@ -161,19 +161,19 @@
    <comment type="patch/comment" x="784" y="98" text="var A"/>
    <comment type="patch/comment" x="784" y="112" text="var B"/>
    <comment type="patch/comment" x="784" y="126" text="var C"/>
-   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_1" x="434" y="140">
+   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_1" x="434" y="140" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="40.94999980926514"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+c_1" x="532" y="140">
+   <obj type="math/+c" sha="4c5cd6eb0ec18a1bab81a4aa3b4f53834edeb10" name="+c_1" x="532" y="140" uuid="13eec32bd8ad57dd0bb18a02566cc0a117d320e3">
       <params>
          <frac32.u.map name="c" value="10.249999523162842"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/div 16" sha="de53fa1ae8551aca115c5ab76dd646a20339668" name="div_1" x="588" y="140">
+   <obj type="math/div 16" sha="de53fa1ae8551aca115c5ab76dd646a20339668" name="div_1" x="588" y="140" uuid="19cf8d3358046cb69c1139e51a3e1555742492e0">
       <params/>
       <attribs/>
    </obj>
@@ -226,7 +226,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_4" x="126" y="294">
+   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_4" x="126" y="294" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="22.5"/>
       </params>
@@ -266,7 +266,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_3" x="938" y="308">
+   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_3" x="938" y="308" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="10.0"/>
       </params>
@@ -306,7 +306,7 @@
       <attribs/>
    </obj>
    <comment type="patch/comment" x="434" y="392" text="sample credit: VEXST on FreeSound, creative commons"/>
-   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_2" x="434" y="420">
+   <obj type="math/*c" sha="d72f5145b13ecb55e7f1d5435e7b048d12a4166e" name="*c_2" x="434" y="420" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225">
       <params>
          <frac32.u.map name="amp" value="63.5"/>
       </params>
@@ -480,6 +480,8 @@
    </nets>
    <settings>
       <subpatchmode>no</subpatchmode>
+      <NPresets>8</NPresets>
+      <NPresetEntries>6</NPresetEntries>
    </settings>
    <notes><![CDATA[]]></notes>
    <windowPos>

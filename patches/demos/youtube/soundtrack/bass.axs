@@ -27,13 +27,13 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="mix/mix 1" sha="75de53c9e6783829b405b702a6e7feb5ccaa8b00" name="mix13" x="574" y="70">
+   <obj type="mix/mix 1" name="mix13" x="574" y="70" uuid="26fb1fe4ed25d8bc2ac4a3f91ab6b80ed6d9d4fa" sha="274a68677775c2a77aca013117fb7f63f285efba">
       <params>
          <frac32.u.map name="gain1" value="7.5"/>
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*" sha="b031e26920f6cf5c1a53377ee6021573c4e3ac02" name="mix23" x="658" y="70">
+   <obj type="math/*" name="mix23" x="658" y="70" uuid="922423f2db9f222aa3e5ba095778288c446da47a" sha="ec71f518aa0e133062e5a9d4828d3739865c99f">
       <params/>
       <attribs/>
    </obj>
@@ -57,7 +57,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="math/*c" sha="1ea155bb99343babad87e3ff0de80e6bf568e8da" name="ftrack" x="140" y="252">
+   <obj type="math/*c" name="ftrack" x="140" y="252" uuid="7d5ef61c3bcd571ee6bbd8437ef3612125dfb225" sha="60143a29e35f452025e9edaa2dec6e660ecb9c6e">
       <params>
          <frac32.u.map name="amp" onParent="true" value="36.5"/>
       </params>

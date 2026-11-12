@@ -32,7 +32,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="mux/mux 2" sha="c6b90f8c9bc3d2f8632ce90fca7a738c7153eb2f" name="mux_1" x="266" y="126">
+   <obj type="mux/mux 2" sha="c6b90f8c9bc3d2f8632ce90fca7a738c7153eb2f" name="mux_1" x="266" y="126" uuid="539c246f4c360ac476e128cfbfa84348fb7f7e73">
       <params/>
       <attribs/>
    </obj>

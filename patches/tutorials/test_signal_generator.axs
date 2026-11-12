@@ -9,7 +9,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="osc/sine" sha="edec4a9d5f533ea748cd564ce8c69673dd78742f" uuid="556d54977a43597bf97427ca6c13e3d446859933" name="sine_1" x="182" y="98">
+   <obj type="osc/sine" sha="edec4a9d5f533ea748cd564ce8c69673dd78742f" uuid="6e094045cca76a9dbf7ebfa72e44e4700d2b3ba" name="sine_1" x="182" y="98">
       <params>
          <frac32.s.map name="pitch" value="0.0"/>
       </params>
@@ -23,7 +23,7 @@
       <params/>
       <attribs/>
    </obj>
-   <obj type="osc/phasor" sha="343e0dfbaa48c69032d959ee1e7398e45000e0bf" uuid="db03c099c44cbefe218b88b702004bcfd6ba87d6" name="phasor_1" x="182" y="210">
+   <obj type="osc/phasor" sha="343e0dfbaa48c69032d959ee1e7398e45000e0bf" uuid="e5553f226015bf75f4fdc3faa39be1bee4f84044" name="phasor_1" x="182" y="210">
       <params>
          <frac32.s.map name="pitch" value="0.0"/>
       </params>

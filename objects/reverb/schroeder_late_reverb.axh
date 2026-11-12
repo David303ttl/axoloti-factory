@@ -11,7 +11,7 @@
       </params>
       <attribs/>
    </obj>
-   <obj type="flashwaveplay~" sha="8778a4f763b06a146c0c1c74337ea16dadd2312c" name="flashwaveplay_1" x="560" y="40">
+   <obj type="wave/flashplay" uuid="595422aa-8767-45a8-ae08-bd8ac0247c61" name="flashwaveplay_1" x="560" y="40">
       <params/>
       <attribs>
          <combo attributeName="sample" selection="808snare"/>

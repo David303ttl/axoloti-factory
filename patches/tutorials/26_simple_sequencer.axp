@@ -14,7 +14,7 @@
    <comment type="patch/comment" x="28" y="98" text="tempo"/>
    <comment type="patch/comment" x="280" y="98" text="end step"/>
    <comment type="patch/comment" x="406" y="98" text="index display"/>
-   <obj type="lfo/square" sha="b4420b58ca2ae5ece53d53540bc91bc9ed7a4b83" uuid="fb76624a81ec92d244b83f94dedcd4c07935d848" name="square_1" x="28" y="112">
+   <obj type="lfo/square" sha="b4420b58ca2ae5ece53d53540bc91bc9ed7a4b83" uuid="de6909eb64db13af5b43f979a4c130024b3a4793" name="square_1" x="28" y="112">
       <params>
          <frac32.s.map name="pitch" value="6.0"/>
       </params>
@@ -57,7 +57,7 @@
       <attribs/>
    </obj>
    <comment type="patch/comment" x="714" y="182" text="harmonize to a scale"/>
-   <obj type="harmony/note quantizer" sha="13431d42028aa183f45816ccf88d37464b5ef22b" uuid="d5343a4fea87a3e4f4dae20287226084550ea8d3" name="note_1" x="714" y="196">
+   <obj type="harmony/note scale" sha="13431d42028aa183f45816ccf88d37464b5ef22b" uuid="d5343a4fea87a3e4f4dae20287226084550ea8d3" name="note_1" x="714" y="196">
       <params>
          <bin12 name="b12" value="2741"/>
       </params>
@@ -81,7 +81,7 @@
       <attribs/>
    </obj>
    <comment type="patch/comment" x="938" y="336" text="simple sound source"/>
-   <obj type="osc/saw" sha="fe2c3c02396657dfbc225c73f9340ad0c4c3eea6" uuid="672d282db829da944d5580258269aa349c94bb24" name="saw_1" x="938" y="350">
+   <obj type="osc/saw" sha="fe2c3c02396657dfbc225c73f9340ad0c4c3eea6" uuid="739ecc36017ef3249479b8f01716b8bbfba9abc1" name="saw_1" x="938" y="350">
       <params>
          <frac32.s.map name="pitch" value="-24.0"/>
       </params>

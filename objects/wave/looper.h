@@ -108,7 +108,7 @@ void stream_close(sdFilePingpongRW *s) {
 
 #define __INL __attribute__ ((noinline))
 
-static __INL msg_t ThreadSD(void *arg) {
+static __INL void ThreadSD(void *arg) {
   volatile FRESULT err;
   UINT bytes_read;
   while (!chThdShouldTerminateX()) {
@@ -160,7 +160,7 @@ static __INL msg_t ThreadSD(void *arg) {
     if (!chThdShouldTerminateX())
       chEvtWaitAnyTimeout((eventmask_t)1, 10);
   }
-  return (msg_t)0;
+  return;
 }
 
 //#define BUFSIZE 16
